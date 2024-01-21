@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: { Roboto: ["Roboto", "sans-serif"] },
+      colors: {
+        "dark-blue": "#77A1BD",
+      },
     },
   },
   plugins: [],
