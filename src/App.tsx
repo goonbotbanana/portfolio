@@ -22,7 +22,7 @@ function App() {
           >
             space themed contact management application
           </a>{" "}
-          for my Processes of Object Oriented Software Development class. I'm
+          for my Processes for Object Oriented Software Development class. I'm
           also working on improving my skills in React, TypeScript, and
           Tailwind.
         </p>
