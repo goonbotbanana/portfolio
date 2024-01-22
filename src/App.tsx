@@ -41,10 +41,10 @@ function App() {
         </p>
         <p className="text-left mt-16">
           I'm always looking to learn more and improve my skills in software
-          engineering.
+          engineering through collaborative work.
         </p>
         <p className="text-left mt-4">
-          You can contact me at{" "}
+          You can reach me at{" "}
           <a className="font-semibold" href="mailto:pharitsmitasin@gmail.com">
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               pharitsmitasin@gmail.com
