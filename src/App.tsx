@@ -51,6 +51,7 @@ function App() {
             </u>
           </a>
         </p>
+        <h1 className="text-center mt-16 text-2xl">WIP!</h1>
       </div>
     </>
   );
