@@ -11,8 +11,8 @@ function App() {
         <h1 className="text-2xl font-bold mb-5 text-left">Pharit</h1>
         <p className="text-left mt-8">
           Hello! I'm an undergraduate student at the University of Central
-          Florida studying Computer Science. My interests lie in full stack web
-          development and design.
+          Florida in my third year of studying Computer Science. My interests
+          lie in full stack web development and design.
         </p>
         <p className="text-left mt-4">
           At the moment, I'm working on the front end of a{" "}
@@ -27,8 +27,8 @@ function App() {
           Tailwind.
         </p>
         <p className="text-left mt-4">
-          When I'm away from the screen, you can find me in the gym, traveling
-          with my friends and family, learning about personal finance,
+          You can find me in the gym, attending hackathons around Florida,
+          traveling with my friends and family, learning about personal finance,
           experimenting with new recipes in the kitchen, and obsessing over
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
@@ -48,6 +48,16 @@ function App() {
           <a className="font-semibold" href="mailto:pharitsmitasin@gmail.com">
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               pharitsmitasin@gmail.com
+            </u>
+          </a>
+        </p>
+        <p className="text-left mt-4">
+          <a
+            className="font-semibold"
+            href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
+          >
+            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
+              Resume
             </u>
           </a>
         </p>
