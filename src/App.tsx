@@ -53,11 +53,27 @@ function App() {
         </p>
         <p className="text-left mt-4">
           <a
-            className="font-semibold"
+            className="font-semibold mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
           >
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               Resume
+            </u>
+          </a>
+          <a
+            className="font-semibold mr-4"
+            href="https://github.com/goonbotbanana"
+          >
+            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
+              Github
+            </u>
+          </a>
+          <a
+            className="font-semibold mr-4"
+            href="https://www.linkedin.com/in/pharit/"
+          >
+            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
+              LinkedIn
             </u>
           </a>
         </p>
