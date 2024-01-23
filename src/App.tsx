@@ -8,7 +8,15 @@ function App() {
         rel="stylesheet"
       ></link>
       <div className="mx-[5%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
-        <h1 className="text-2xl font-bold mb-5 text-left">Pharit</h1>
+        <h1 className="text-2xl font-bold mb-5 text-left">
+          {" "}
+          <a
+            className="transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            href="https://smitasin.dev"
+          >
+            Pharit
+          </a>
+        </h1>
         <p className="text-left mt-8">
           Hello! I'm an undergraduate student at the University of Central
           Florida in my third year of studying Computer Science. My interests
