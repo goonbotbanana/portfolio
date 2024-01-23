@@ -27,9 +27,15 @@ function App() {
           Tailwind.
         </p>
         <p className="text-left mt-4">
-          You can find me in the gym, attending hackathons around Florida,
-          traveling with my friends and family, learning about personal finance,
-          experimenting with new recipes in the kitchen, and obsessing over
+          You can find me in the gym,{" "}
+          <a
+            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
+          >
+            attending hackathons around Florida,
+          </a>{" "}
+          traveling with friends and family, exploring personal finance, and
+          obsessing over
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.youtube.com/watch?v=NLphEFOyoqM"
@@ -77,7 +83,9 @@ function App() {
             </u>
           </a>
         </p>
-        <h1 className="text-center mt-8 text-2xl">WIP!</h1>
+        <h1 className="text-center mt-8 text-2xl font-extrabold text-dark-blue">
+          WIP!
+        </h1>
       </div>
     </>
   );
