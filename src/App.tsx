@@ -39,7 +39,7 @@ function App() {
           </a>
           .
         </p>
-        <p className="text-left mt-16">
+        <p className="text-left mt-4">
           I'm always looking to learn more and improve my skills in software
           engineering through collaborative work.
         </p>
@@ -51,7 +51,7 @@ function App() {
             </u>
           </a>
         </p>
-        <p className="text-left mt-4">
+        <p className="text-center mt-8">
           <a
             className="font-semibold mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
@@ -77,7 +77,7 @@ function App() {
             </u>
           </a>
         </p>
-        <h1 className="text-center mt-16 text-2xl">WIP!</h1>
+        <h1 className="text-center mt-8 text-2xl">WIP!</h1>
       </div>
     </>
   );
