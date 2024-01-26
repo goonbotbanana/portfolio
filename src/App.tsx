@@ -93,6 +93,7 @@ function App() {
         </p>
         <h1 className="text-center mt-8 text-2xl font-extrabold text-dark-blue">
           WIP!
+          {/* to do: add pc specs section lol */}
         </h1>
       </div>
     </>
