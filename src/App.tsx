@@ -20,7 +20,7 @@ function App() {
         <p className="text-left mt-8">
           Hello! I'm an undergraduate student at the University of Central
           Florida in my third year of studying Computer Science. My interests
-          lie in full stack web development and design.
+          lie in full stack web development and front-end design.
         </p>
         <p className="text-left mt-4">
           At the moment, I'm working on the front end of a{" "}
