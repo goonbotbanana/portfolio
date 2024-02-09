@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 
-function App() {
+function Index() {
   return (
     <>
       <link
@@ -12,9 +13,9 @@ function App() {
           {" "}
           <a
             className="transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://smitasin.dev"
+            // href="https://smitasin.dev"
           >
-            Pharit
+            <Link to="/">Pharit</Link>
           </a>
         </h1>
         <p className="text-left mt-8">
@@ -65,13 +66,13 @@ function App() {
             </u>
           </a>
         </p>
-        <p className="text-center mt-8">
+        <p className="text-left mt-8">
           <a
             className="font-semibold mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
           >
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              Resume
+              <Link to="/">Resume</Link>
             </u>
           </a>
           <a
@@ -91,13 +92,9 @@ function App() {
             </u>
           </a>
         </p>
-        <h1 className="text-center mt-8 text-2xl font-extrabold text-dark-blue">
-          WIP!
-          {/* to do: add pc specs section lol */}
-        </h1>
       </div>
     </>
   );
 }
 
-export default App;
+export default Index;
