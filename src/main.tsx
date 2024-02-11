@@ -4,7 +4,7 @@ import About from "./pages/About.tsx";
 import Cooks from "./pages/Cooks.tsx";
 import Projects from "./pages/Projects.tsx";
 import "./index.css";
-import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
