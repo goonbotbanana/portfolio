@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./App.css";
 
 function Index() {
@@ -13,9 +12,9 @@ function Index() {
           {" "}
           <a
             className="transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            // href="https://smitasin.dev"
+            href="https://smitasin.dev"
           >
-            <Link to="/">Pharit</Link>
+            Pharit
           </a>
         </h1>
         <p className="text-left mt-8">
@@ -71,9 +70,7 @@ function Index() {
             className="font-semibold mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
           >
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              <Link to="/">Resume</Link>
-            </u>
+            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue"></u>
           </a>
           <a
             className="font-semibold mr-4"
