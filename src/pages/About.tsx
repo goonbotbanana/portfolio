@@ -35,7 +35,7 @@ function Index() {
           also working on improving my skills in React, TypeScript, and
           Tailwind.
         </p>
-        <p className="text-left mt-4">
+        {/* <p className="text-left mt-4">
           You can find me in the gym,{" "}
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
@@ -55,7 +55,7 @@ function Index() {
             Laufey
           </a>
           .
-        </p>
+        </p> */}
         <p className="text-left mt-4">
           I'm always looking to learn more and improve my skills in software
           engineering through collaborative work.
