@@ -27,6 +27,7 @@ function Index() {
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://github.com/CoderSolian/Cosmic-Contacts"
+            target="_blank"
           >
             space themed contact management application
           </a>{" "}
@@ -39,6 +40,7 @@ function Index() {
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
+            target="_blank"
           >
             attending hackathons around Florida,
           </a>{" "}
@@ -47,6 +49,7 @@ function Index() {
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.youtube.com/watch?v=NLphEFOyoqM"
+            target="_blank"
           >
             {" "}
             Laufey
@@ -69,12 +72,16 @@ function Index() {
           <a
             className="font-semibold mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
+            target="_blank"
           >
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue"></u>
+            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
+              Resume
+            </u>
           </a>
           <a
             className="font-semibold mr-4"
             href="https://github.com/goonbotbanana"
+            target="_blank"
           >
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               Github
@@ -83,6 +90,7 @@ function Index() {
           <a
             className="font-semibold mr-4"
             href="https://www.linkedin.com/in/pharit/"
+            target="_blank"
           >
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               LinkedIn
