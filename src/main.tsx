@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Index from "./Index.tsx";
 import About from "./pages/About.tsx";
-import Cooks from "./pages/cooks.tsx";
+import Cooks from "./pages/Cooks.tsx";
 import Projects from "./pages/Projects.tsx";
 import "./index.css";
 import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
