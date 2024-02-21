@@ -23,7 +23,7 @@ function Index() {
           lie in full stack web development and front-end design.
         </p>
         <p className="text-left mt-4">
-          At the moment, I'm working on the front end of an{" "}
+          At the moment, I'm working on an{" "}
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://github.com/MewingCentral/FEPrep"
@@ -31,9 +31,17 @@ function Index() {
           >
             exam prep tool
           </a>{" "}
-          aimed at UCF CS students for my Processes for Object Oriented Software
-          Development class. I'm also working on improving my skills in
-          React.js/React Native, TypeScript, and Tailwind.
+          aimed at computer science students studying at UCF to assist in
+          passing the infamous{" "}
+          <a
+            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
+            target="_blank"
+          >
+            Foundation Exam.
+          </a>{" "}
+          This tool will allow professors to upload questions, and for all users
+          to collaborate and discuss questions in forums.
         </p>
         {/* <p className="text-left mt-4">
           You can find me in the gym,{" "}
