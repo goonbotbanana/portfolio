@@ -31,8 +31,7 @@ function Index() {
           >
             exam prep tool
           </a>{" "}
-          aimed at computer science students studying at UCF to assist in
-          passing the infamous{" "}
+          aimed at UCF computer science students preparing to take the{" "}
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
@@ -40,8 +39,9 @@ function Index() {
           >
             Foundation Exam.
           </a>{" "}
-          This tool will allow professors to upload questions, and for all users
-          to collaborate and discuss questions in forums.
+          This tool will allow students to practice questions in a "LeetCode"
+          style, professors to upload questions, and for all users to
+          collaborate and discuss questions in forums.
         </p>
         {/* <p className="text-left mt-4">
           You can find me in the gym,{" "}
