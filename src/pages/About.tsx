@@ -23,17 +23,17 @@ function Index() {
           lie in full stack web development and front-end design.
         </p>
         <p className="text-left mt-4">
-          At the moment, I'm working on the front end of a{" "}
+          At the moment, I'm working on the front end of an{" "}
           <a
             className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://github.com/CoderSolian/Cosmic-Contacts"
+            href="https://github.com/MewingCentral/FEPrep"
             target="_blank"
           >
-            space themed contact management application
+            exam prep tool
           </a>{" "}
-          for my Processes for Object Oriented Software Development class. I'm
-          also working on improving my skills in React, TypeScript, and
-          Tailwind.
+          aimed at UCF CS students for my Processes for Object Oriented Software
+          Development class. I'm also working on improving my skills in
+          React.js/React Native, TypeScript, and Tailwind.
         </p>
         {/* <p className="text-left mt-4">
           You can find me in the gym,{" "}
