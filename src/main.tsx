@@ -4,6 +4,7 @@ import About from "./pages/About.tsx";
 import Work from "./pages/Work.tsx";
 import "./index.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/" element={<About />} />
           <Route path="/work" element={<Work />} />
         </Routes>
+        <Analytics />
       </main>
     </BrowserRouter>
     {/* <About /> */}
