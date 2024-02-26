@@ -72,29 +72,6 @@ function Work() {
         <div>
           <h1 className="text-xl text-left flex flex-wrap items-center">
             <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
-              <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
-                Cosmic Contacts
-              </Link>{" "}
-            </a>
-
-            <img
-              src="https://skillicons.dev/icons?i=js,php,mysql"
-              className="mt-4 flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            Keep your contacts in order with this interstellar app.
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              Designed and implemented the front end of a LAMP stack contact
-              management application.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h1 className="text-xl text-left flex flex-wrap items-center">
-            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
               <Link to="https://github.com/gabeparra/Margot.AI">Margot.AI</Link>
             </a>
             <img
@@ -130,8 +107,31 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Developed a React.js web application that leverages RESTful APIs
-              for a stock dashboard.
+              Utilizes Finnhub API to fetch real-time and historical stock data
+              alongside the Recharts library for data visualization.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 className="text-xl text-left flex flex-wrap items-center">
+            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+              <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
+                Cosmic Contacts
+              </Link>{" "}
+            </a>
+
+            <img
+              src="https://skillicons.dev/icons?i=js,php,mysql"
+              className="mt-4 flex flex-row max-h-9 opacity-90"
+            ></img>
+          </h1>
+          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+            Keep your contacts in order with this interstellar app.
+          </h2>
+          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+            <li>
+              A LAMP stack application, capable of handling CRUD operations for
+              contact lists.
             </li>
           </ul>
         </div>
