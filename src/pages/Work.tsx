@@ -6,9 +6,9 @@ function Work() {
   return (
     <>
       <link
-        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
         rel="stylesheet"
-      ></link>
+      />
       <div className="mx-[5%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
         <Nav />
       </div>
