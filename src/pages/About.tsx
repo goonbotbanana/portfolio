@@ -1,4 +1,6 @@
 import "../App.css";
+import Navbar from "../components/Nav.tsx";
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -8,19 +10,11 @@ function Index() {
         rel="stylesheet"
       ></link>
       <div className="mx-[5%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
-        <h1 className="text-2xl font-bold mb-5 text-left">
-          {" "}
-          <a
-            className="transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://smitasin.dev"
-          >
-            Pharit
-          </a>
-        </h1>
+        <Navbar />
         <p className="text-left mt-8">
-          Hello! I'm an undergraduate student at the University of Central
-          Florida in my third year of studying Computer Science. My interests
-          lie in full stack web development and front-end design.
+          Hello, I'm Pharit. I'm an undergraduate student at the University of
+          Central Florida in my third year of studying Computer Science. My
+          interests lie in full stack web development and front-end design.
         </p>
         <p className="text-left mt-4">
           At the moment, I'm working on an{" "}
