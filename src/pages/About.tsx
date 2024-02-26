@@ -10,7 +10,7 @@ function Index() {
         rel="stylesheet"
       />
 
-      <div className="mx-[5%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
+      <div className="mx-[0%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
         <Navbar />
         <p className="text-left mt-8">
           Hey there! I'm{" "}
