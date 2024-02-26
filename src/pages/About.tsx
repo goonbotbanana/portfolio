@@ -1,6 +1,6 @@
 import "../App.css";
 import Navbar from "../components/Nav.tsx";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -37,38 +37,12 @@ function Index() {
           style, professors to upload questions, and for all users to
           collaborate and discuss questions in forums.
         </p>
-        {/* <p className="text-left mt-4">
-          You can find me in the gym,{" "}
-          <a
-            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
-            target="_blank"
-          >
-            attending hackathons around Florida,
-          </a>{" "}
-          traveling with friends and family, exploring personal finance, and
-          obsessing over
-          <a
-            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://www.youtube.com/watch?v=NLphEFOyoqM"
-            target="_blank"
-          >
-            {" "}
-            Laufey
-          </a>
-          .
-        </p> */}
         <p className="text-left mt-4">
           I'm always looking to learn more and improve my skills in software
           engineering through collaborative work.
         </p>
         <p className="text-left mt-8">
           You can reach me at{" "}
-          {/* <a className="font-semibold" href="mailto:pharitsmitasin@gmail.com">
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              pharitsmitasin@gmail.com
-            </u>
-          </a> */}
           <a
             className="font-semibold transition-all duration-500 ease-in-out hover:text-dark-blue"
             href="mailto:pharitsmitasin@gmail.com"
@@ -76,35 +50,6 @@ function Index() {
             pharitsmitasin@gmail.com
           </a>
         </p>
-        {/* <p className="text-left mt-8">
-          <a
-            className="font-medium mr-4"
-            href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
-            target="_blank"
-          >
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              Resume
-            </u>
-          </a>
-          <a
-            className="font-medium mr-4"
-            href="https://github.com/goonbotbanana"
-            target="_blank"
-          >
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              Github
-            </u>
-          </a>
-          <a
-            className="font-medium mr-4"
-            href="https://www.linkedin.com/in/pharit/"
-            target="_blank"
-          >
-            <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
-              LinkedIn
-            </u>
-          </a>
-        </p> */}
       </div>
     </>
   );

@@ -1,7 +1,5 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
-import Github from "../assets/github.svg";
-import Linkedin from "../assets/linkedin.svg";
 
 function Nav() {
   return (
