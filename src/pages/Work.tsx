@@ -50,18 +50,19 @@ function Work() {
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            Application Development Intern
+            <a className="justify-start">Application Development Intern</a>{" "}
+            <a className="italic text-xs">(May-Aug. 2023)</a>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
               Resolved defects within the preferences and consents admin tool
               using Javascript and React.
             </li>
-            <li>
+            <li className="mt-2">
               Contributed to the implementation of internal tools by creating
               technical design documentation.
             </li>
-            <li>
+            <li className="mt-2">
               Wrote and updated OpenAPI/Swagger documentation for API endpoints
               to be leveraged by integrating teams.
             </li>
