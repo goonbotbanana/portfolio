@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <>
-      <div className="flex flex-row w-screen">
-        <h1 className="text-xl font-medium tracking-wide">
-          <a className=" transition-all duration-500 hover:text-dark-blue">
+      <div className="flex flex-row flex-wrap">
+        <h1 className="text-xl font-semibold">
+          <a className="transition-all duration-500 rounded-lg hover:text-light-blue">
             <Link to="/">About</Link>
           </a>
-          <a className=" transition-all duration-500 hover:text-dark-blue ml-3">
+          <a className=" transition-all duration-500 hover:text-light-blue ml-3">
             {" "}
             <Link to="/work">Work</Link>
           </a>
-          <a className=" transition-all duration-500 hover:text-dark-blue ml-3">
+          <a className=" transition-all duration-500 hover:text-light-blue ml-3">
             {" "}
             <Link
               to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
@@ -25,7 +25,7 @@ function Nav() {
         </h1>
         <a href="https://github.com/goonbotbanana" target="_blank">
           <svg
-            className="fill-black w-6 h-auto hover:fill-dark-blue duration-500 ml-5"
+            className="fill-black w-6 h-auto hover:fill-light-blue duration-500 ml-5"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -36,7 +36,7 @@ function Nav() {
         </a>
         <a href="https://www.linkedin.com/in/pharit/" target="_blank">
           <svg
-            className="fill-black w-6 h-auto hover:fill-dark-blue duration-500 ml-5"
+            className="fill-black w-6 h-auto hover:fill-light-blue duration-500 ml-5"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
