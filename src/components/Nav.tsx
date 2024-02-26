@@ -22,6 +22,10 @@ function Nav() {
               Resume
             </Link>
           </a>
+          <a className=" transition-all duration-500 hover:text-light-blue ml-3">
+            {" "}
+            <Link to="/cooks">Cooks</Link>
+          </a>
         </h1>
         <a href="https://github.com/goonbotbanana" target="_blank">
           <svg
