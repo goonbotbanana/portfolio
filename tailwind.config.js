@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontWeight: {
-        semibold: 500,
+        semibold: 600,
       },
       colors: {
         "dark-blue": "#77A1BD",
