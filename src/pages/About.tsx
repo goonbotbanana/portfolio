@@ -25,7 +25,7 @@ function Index() {
         </p>
         <img
           src="https://skillicons.dev/icons?i=js,ts,html,css,java,tailwind,figma,nodejs,vercel,vite"
-          className="my-4 max-w-min"
+          className="mt-4 max-w-md opacity-90"
         ></img>
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <p className="text-left">
