@@ -32,9 +32,9 @@ function Work() {
           </a>{" "}
           at UCF.
           <p className="text-left mt-4">
-            This tool allows students to review past exam questions as they
-            collaborate and discuss the material with their peers and professors
-            in the forums.
+            This tool allows students to review exam material through various
+            methods as they collaborate on solutions with their peers and
+            professors in the forums.
           </p>
         </p>
         {/* <h1 className="text-xl font-semibold text-left mt-4">Experience</h1> */}
