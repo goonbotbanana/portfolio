@@ -19,7 +19,7 @@ function Index() {
         <p className="text-left mt-4">
           At the moment, I'm working on an{" "}
           <a
-            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://github.com/MewingCentral/FEPrep"
             target="_blank"
           >
@@ -27,7 +27,7 @@ function Index() {
           </a>{" "}
           aimed at UCF computer science students preparing to take the{" "}
           <a
-            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
             target="_blank"
           >
@@ -40,7 +40,7 @@ function Index() {
         {/* <p className="text-left mt-4">
           You can find me in the gym,{" "}
           <a
-            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
             target="_blank"
           >
@@ -49,7 +49,7 @@ function Index() {
           traveling with friends and family, exploring personal finance, and
           obsessing over
           <a
-            className="font-semibold transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-medium transition-colors duration-300 ease-in-out hover:text-dark-blue"
             href="https://www.youtube.com/watch?v=NLphEFOyoqM"
             target="_blank"
           >
@@ -62,17 +62,23 @@ function Index() {
           I'm always looking to learn more and improve my skills in software
           engineering through collaborative work.
         </p>
-        <p className="text-left mt-4">
+        <p className="text-left mt-8">
           You can reach me at{" "}
-          <a className="font-semibold" href="mailto:pharitsmitasin@gmail.com">
+          {/* <a className="font-semibold" href="mailto:pharitsmitasin@gmail.com">
             <u className="transition-colors duration-300 ease-in-out hover:text-dark-blue">
               pharitsmitasin@gmail.com
             </u>
+          </a> */}
+          <a
+            className="font-semibold transition-all duration-500 ease-in-out hover:text-dark-blue"
+            href="mailto:pharitsmitasin@gmail.com"
+          >
+            pharitsmitasin@gmail.com
           </a>
         </p>
-        <p className="text-left mt-8">
+        {/* <p className="text-left mt-8">
           <a
-            className="font-semibold mr-4"
+            className="font-medium mr-4"
             href="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
             target="_blank"
           >
@@ -81,7 +87,7 @@ function Index() {
             </u>
           </a>
           <a
-            className="font-semibold mr-4"
+            className="font-medium mr-4"
             href="https://github.com/goonbotbanana"
             target="_blank"
           >
@@ -90,7 +96,7 @@ function Index() {
             </u>
           </a>
           <a
-            className="font-semibold mr-4"
+            className="font-medium mr-4"
             href="https://www.linkedin.com/in/pharit/"
             target="_blank"
           >
@@ -98,7 +104,7 @@ function Index() {
               LinkedIn
             </u>
           </a>
-        </p>
+        </p> */}
       </div>
     </>
   );
