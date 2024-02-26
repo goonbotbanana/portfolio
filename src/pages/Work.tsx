@@ -15,7 +15,7 @@ function Work() {
         <p className="text-left mt-8">
           At the moment, I'm working on {""}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out underline underline-offset-2 hover:text-dark-blue"
             href="https://github.com/MewingCentral/FEPrep"
             target="_blank"
           >
@@ -24,7 +24,7 @@ function Work() {
           which is a learning platform for computer science students preparing
           to take the{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-dark-blue"
+            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out underline underline-offset-2 hover:text-dark-blue"
             href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
             target="_blank"
           >
