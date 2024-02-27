@@ -11,11 +11,11 @@ function Nav() {
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
-            <Link to="/work">Work</Link>
+            <Link to="/projects">Projects</Link>
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
-            <Link to="/projects">Projects</Link>
+            <Link to="/work">Work</Link>
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}

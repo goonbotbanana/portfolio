@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
+import marketinsight from "../assets/marketinsight.gif";
+import margotai from "../assets/margotai.jpeg";
 
 export default function Projects() {
   return (
@@ -11,16 +13,24 @@ export default function Projects() {
         />
         <div className="mx-[0%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col">
           <Nav />
+          <p className="text-left mt-4">
+            <p className="text-left mt-4">
+              I love to craft beautiful designs and I thrive on the front end of
+              applications.
+            </p>
+            <p className="text-left mt-4">Here are some of my highlights.</p>
+          </p>
+          <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div>
-            <h1 className="text-xl text-left flex flex-wrap items-center mt-4">
-              <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+            <h1 className="text-xl text-left flex flex-wrap items-center">
+              <a className=" mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
                 <Link to="https://github.com/gabeparra/Margot.AI">
                   Margot.AI
                 </Link>
               </a>
               <img
                 src="https://skillicons.dev/icons?i=ts,react,mongo"
-                className="mt-4 flex flex-row max-h-9 opacity-90"
+                className="flex flex-row max-h-9 opacity-90"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
@@ -32,6 +42,7 @@ export default function Projects() {
                 hackathon out of 322 participants.
               </li>
             </ul>
+            <img src={margotai} className="mt-4 max-w-md opacity-90"></img>
           </div>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
@@ -55,6 +66,7 @@ export default function Projects() {
                 data alongside the Recharts library for data visualization.
               </li>
             </ul>
+            <img src={marketinsight} className="mt-4 max-w-md opacity-90"></img>
           </div>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
