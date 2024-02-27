@@ -16,7 +16,7 @@ function Nav() {
             {" "}
             <Link to="/work">Work</Link>
           </a>
-          <a className="items-center transition-all duration-500 hover:text-light-blue ml-2 list-image-[url(arrow.png)]">
+          <a className="items-center transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
             <Link
               to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
