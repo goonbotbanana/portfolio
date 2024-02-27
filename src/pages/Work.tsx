@@ -80,7 +80,10 @@ function Work() {
             <a className="italic text-xs">(Dec. 2023-Present)</a>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>Working on a mobile startup for college students.</li>
+            <li>
+              Working on a mobile startup for college students on the dating
+              market.
+            </li>
           </ul>
         </div>
         <div className="mt-4">
@@ -91,7 +94,7 @@ function Work() {
               </Link>
             </a>
             <img
-              src="https://skillicons.dev/icons?i=ts,react,tailwind"
+              src="https://skillicons.dev/icons?i=ts,tailwind,next"
               className="flex flex-row max-h-9 opacity-90"
             ></img>
           </h1>
@@ -101,8 +104,8 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Mainting active community involvement and managing club data
-              through development of the club site.
+              Increasing community involvement and managing club data through
+              the development of the club site.
             </li>
           </ul>
         </div>
