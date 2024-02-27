@@ -15,7 +15,7 @@ function Work() {
         <p className="text-left mt-8">
           At the moment, I'm working on {""}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out underline underline-offset-2 hover:text-dark-blue"
+            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out underline underline-offset-2 hover:text-light-blue"
             href="https://github.com/MewingCentral/FEPrep"
             target="_blank"
           >
@@ -24,7 +24,7 @@ function Work() {
           which is a learning platform for computer science students preparing
           to take the{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out underline underline-offset-2 hover:text-dark-blue"
+            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out underline underline-offset-2 hover:text-light-blue"
             href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
             target="_blank"
           >
@@ -41,7 +41,7 @@ function Work() {
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
           <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
             </a>
             <img
@@ -67,7 +67,7 @@ function Work() {
         </div>
         <div className="mt-4">
           <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
             <img
