@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
-import marketinsight from "../assets/marketinsight.gif";
-import margotai from "../assets/margotai.jpeg";
+import market from "../assets/market.gif";
+import margotai from "../assets/margotai2.png";
+import cosmic from "../assets/cosmic.gif";
 
 export default function Projects() {
   return (
@@ -23,30 +24,7 @@ export default function Projects() {
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
-              <a className=" mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
-                <Link to="https://github.com/gabeparra/Margot.AI">
-                  Margot.AI
-                </Link>
-              </a>
-              <img
-                src="https://skillicons.dev/icons?i=ts,react,mongo"
-                className="flex flex-row max-h-9 opacity-90"
-              ></img>
-            </h1>
-            <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-              Helping your kids have fun while learning Spanish!
-            </h2>
-            <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-              <li>
-                Awarded ”Best Use of MongoDB Atlas” at the 2023 "Knight Hacks"
-                hackathon out of 322 participants.
-              </li>
-            </ul>
-            <img src={margotai} className="mt-4 max-w-md opacity-90"></img>
-          </div>
-          <div>
-            <h1 className="text-xl text-left flex flex-wrap items-center">
-              <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
                   Market Insight
                 </Link>{" "}
@@ -66,11 +44,19 @@ export default function Projects() {
                 data alongside the Recharts library for data visualization.
               </li>
             </ul>
-            <img src={marketinsight} className="mt-4 max-w-md opacity-90"></img>
+            <Link
+              to="https://github.com/goonbotbanana/Market-Insight"
+              target="_blank"
+            >
+              <img
+                src={market}
+                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+              ></img>
+            </Link>
           </div>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
-              <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
                   Cosmic Contacts
                 </Link>{" "}
@@ -90,6 +76,43 @@ export default function Projects() {
                 for contact lists.
               </li>
             </ul>
+            <Link
+              to="https://github.com/CoderSolian/Cosmic-Contacts"
+              target="_blank"
+            >
+              <img
+                src={cosmic}
+                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+              ></img>
+            </Link>
+          </div>
+          <div>
+            <h1 className="text-xl text-left flex flex-wrap items-center">
+              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+                <Link to="https://github.com/gabeparra/Margot.AI">
+                  Margot.AI
+                </Link>
+              </a>
+              <img
+                src="https://skillicons.dev/icons?i=ts,react,mongo"
+                className="mt-4 flex flex-row max-h-9 opacity-90"
+              ></img>
+            </h1>
+            <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+              Helping your kids have fun while learning Spanish!
+            </h2>
+            <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+              <li>
+                Awarded ”Best Use of MongoDB Atlas” at the 2023 "Knight Hacks"
+                hackathon out of 322 participants.
+              </li>
+            </ul>
+            <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
+              <img
+                src={margotai}
+                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+              ></img>
+            </Link>
           </div>
         </div>
       </>
