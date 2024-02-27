@@ -38,15 +38,41 @@ function Work() {
           </p>
         </p>
         {/* <h1 className="text-xl font-semibold text-left mt-4">Experience</h1> */}
-        <hr className="mt-4 border-gray-400 dark:border-gray-500"></hr>
+        <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
           <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+            <a className="mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
+              <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
+            </a>
+            <img
+              src="https://skillicons.dev/icons?i=ts,tailwind,react,next,tRPC"
+              className="flex flex-row max-h-9 opacity-90"
+            ></img>
+          </h1>
+          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+            <a className="justify-start">Full-stack Developer</a>{" "}
+            <a className="italic text-xs">(Jan. 2024-Present)</a>
+          </h2>
+          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+            <li>
+              Developing an administrative tool leveraging React and TypeScript,
+              enhancing the capabilities of hackathon organizers to efficiently
+              manage events with over 700 participants.
+            </li>
+            <li className="mt-2">
+              Embracing cutting-edge solutions and technologies like TursoDB,
+              Clerk, and Turborepo, to optimize system performance.
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <h1 className="flex flex-wrap items-center text-xl text-left">
+            <a className="mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
             <img
-              src="https://skillicons.dev/icons?i=js,react,swagger,openapi"
-              className="mt-4 flex flex-row max-h-9 opacity-90"
+              src="https://skillicons.dev/icons?i=js,react"
+              className="flex flex-row max-h-9 opacity-90"
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
@@ -68,74 +94,7 @@ function Work() {
             </li>
           </ul>
         </div>
-        {/* <h1 className="text-xl font-semibold text-left mt-4">Projects</h1> */}
-        <hr className="mt-4 border-gray-400 dark:border-gray-500"></hr>
-        <div>
-          <h1 className="text-xl text-left flex flex-wrap items-center">
-            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
-              <Link to="https://github.com/gabeparra/Margot.AI">Margot.AI</Link>
-            </a>
-            <img
-              src="https://skillicons.dev/icons?i=ts,react,mongo"
-              className="mt-4 flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            Helping your kids have fun while learning Spanish!
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              Awarded ”Best Use of MongoDB Atlas” at the 2023 "Knight Hacks"
-              hackathon out of 322 participants.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h1 className="text-xl text-left flex flex-wrap items-center">
-            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
-              <Link to="https://github.com/goonbotbanana/Market-Insight">
-                Market Insight
-              </Link>{" "}
-            </a>
-
-            <img
-              src="https://skillicons.dev/icons?i=js,tailwind,react"
-              className="mt-4 flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            How are my stocks doing today?
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              Utilizes Finnhub API to fetch real-time and historical stock data
-              alongside the Recharts library for data visualization.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h1 className="text-xl text-left flex flex-wrap items-center">
-            <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-dark-blue underline underline-offset-2">
-              <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
-                Cosmic Contacts
-              </Link>{" "}
-            </a>
-
-            <img
-              src="https://skillicons.dev/icons?i=js,php,mysql"
-              className="mt-4 flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            Keep your contacts in order with this interstellar app.
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              A LAMP stack application, capable of handling CRUD operations for
-              contact lists.
-            </li>
-          </ul>
-        </div>
+        <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
       </div>
     </>
   );
