@@ -45,7 +45,7 @@ function Work() {
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
             </a>
             <img
-              src="https://skillicons.dev/icons?i=ts,tailwind,next,tRPC"
+              src="https://skillicons.dev/icons?i=ts,tailwind,next"
               className="flex flex-row max-h-9 opacity-90"
             ></img>
           </h1>
