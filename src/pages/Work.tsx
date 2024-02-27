@@ -68,9 +68,7 @@ function Work() {
         <div className="mt-4">
           <h1 className="flex flex-wrap items-center text-xl text-left">
             <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
-              <Link to={"https://discord.gg/GWG4wzz88b"}>
-                Roblox Development Club @ UCF
-              </Link>
+              <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
             </a>
             <img
               src="https://skillicons.dev/icons?i=ts,tailwind,next"
@@ -83,8 +81,8 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Increasing community involvement and managing club data through
-              the development of the club site.
+              Increasing community involvement and managing the Roblox
+              Development Club's data through the development of the club site.
             </li>
           </ul>
         </div>
