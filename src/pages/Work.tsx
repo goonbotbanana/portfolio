@@ -94,7 +94,7 @@ function Work() {
             </li>
           </ul>
         </div>
-        <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
+        {/* <hr className="my-4 border-gray-400 dark:border-gray-500"></hr> */}
       </div>
     </>
   );
