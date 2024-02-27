@@ -86,6 +86,29 @@ function Work() {
         <div className="mt-4">
           <h1 className="flex flex-wrap items-center text-xl text-left">
             <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <Link to={"https://discord.gg/GWG4wzz88b"}>
+                Roblox Development Club @ UCF
+              </Link>
+            </a>
+            <img
+              src="https://skillicons.dev/icons?i=ts,react,tailwind"
+              className="flex flex-row max-h-9 opacity-90"
+            ></img>
+          </h1>
+          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+            <a className="justify-start">Webmaster</a>{" "}
+            <a className="italic text-xs">(Jan. 2024-Present)</a>
+          </h2>
+          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+            <li>
+              Mainting active community involvement and managing club data
+              through development of the club site.
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <h1 className="flex flex-wrap items-center text-xl text-left">
+            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
             <img
