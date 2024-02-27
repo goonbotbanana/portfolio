@@ -13,11 +13,15 @@ function Index() {
       <div className="mx-[0%] md:mx-[25%] lg:mx-[25%] min-h-screen flex flex-col leading-relaxed">
         <Navbar />
         <p className="text-left mt-8">
-          Hey there! I'm{" "}
-          <a className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out">
+          I'm{" "}
+          <a
+            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2"
+            href="https://www.linkedin.com/in/pharit/"
+            target="_blank"
+          >
             Pharit
           </a>
-          . I'm a software developer and student at the University of Central
+          , a software developer and student at the University of Central
           Florida. Here are some of my favorite technologies to play with:
         </p>
         <img
