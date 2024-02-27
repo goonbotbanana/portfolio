@@ -55,7 +55,7 @@ export default function Projects() {
             </Link>
           </div>
           <div>
-            <h1 className="text-xl text-left flex flex-wrap items-center">
+            <h1 className="mt-4 text-xl text-left flex flex-wrap items-center">
               <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
                   Cosmic Contacts
@@ -87,7 +87,7 @@ export default function Projects() {
             </Link>
           </div>
           <div>
-            <h1 className="text-xl text-left flex flex-wrap items-center">
+            <h1 className="mt-4 text-xl text-left flex flex-wrap items-center">
               <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/gabeparra/Margot.AI">
                   Margot.AI
