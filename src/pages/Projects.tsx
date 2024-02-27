@@ -50,7 +50,7 @@ export default function Projects() {
             >
               <img
                 src={market}
-                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default function Projects() {
             >
               <img
                 src={cosmic}
-                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>
@@ -110,7 +110,7 @@ export default function Projects() {
             <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
               <img
                 src={margotai}
-                className="object-cover mt-4 opacity-90 transition-all duration-500 hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>
