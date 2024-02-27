@@ -19,12 +19,12 @@ export default function Projects() {
               I love to craft beautiful designs and I thrive on the front end of
               applications.
             </p>
-            <p className="text-left mt-4">Here are some of my highlights.</p>
+            <p className="text-left mt-2">Here are some of my highlights.</p>
           </p>
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
-              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
                   Market Insight
                 </Link>{" "}
@@ -32,7 +32,7 @@ export default function Projects() {
 
               <img
                 src="https://skillicons.dev/icons?i=js,tailwind,react"
-                className="mt-4 flex flex-row max-h-9 opacity-90"
+                className="flex flex-row max-h-9 opacity-90"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
