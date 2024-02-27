@@ -68,27 +68,6 @@ function Work() {
         <div className="mt-4">
           <h1 className="flex flex-wrap items-center text-xl text-left">
             <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
-              <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
-            </a>
-            <img
-              src="https://skillicons.dev/icons?i=ts,react,tailwind"
-              className="flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Co-Founder, Front-end Developer</a>{" "}
-            <a className="italic text-xs">(Dec. 2023-Present)</a>
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              Working on a mobile startup for college students on the dating
-              market.
-            </li>
-          </ul>
-        </div>
-        <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
               <Link to={"https://discord.gg/GWG4wzz88b"}>
                 Roblox Development Club @ UCF
               </Link>
@@ -106,6 +85,27 @@ function Work() {
             <li>
               Increasing community involvement and managing club data through
               the development of the club site.
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <h1 className="flex flex-wrap items-center text-xl text-left">
+            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
+            </a>
+            <img
+              src="https://skillicons.dev/icons?i=ts,react,tailwind"
+              className="flex flex-row max-h-9 opacity-90"
+            ></img>
+          </h1>
+          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+            <a className="justify-start">Co-Founder, Front-end Developer</a>{" "}
+            <a className="italic text-xs">(Dec. 2023-Present)</a>
+          </h2>
+          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+            <li>
+              Working on a mobile startup for college students on the dating
+              market.
             </li>
           </ul>
         </div>
