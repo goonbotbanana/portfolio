@@ -15,6 +15,10 @@ function Nav() {
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
+            <Link to="/projects">Projects</Link>
+          </a>
+          <a className=" transition-all duration-500 hover:text-light-blue ml-2">
+            {" "}
             <Link
               to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
               target="_blank"
@@ -22,10 +26,6 @@ function Nav() {
               Resume
             </Link>
           </a>
-          {/* <a className=" transition-all duration-500 hover:text-light-blue ml-3">
-            {" "}
-            <Link to="/cooks">Cooks</Link>
-          </a> */}
         </h1>
         <a href="https://github.com/goonbotbanana" target="_blank">
           <svg
