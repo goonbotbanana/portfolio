@@ -55,7 +55,7 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Developing an administrative tool leveraging React and TypeScript,
+              Developing an administrative tool with React and TypeScript,
               enhancing the capabilities of hackathon organizers to efficiently
               manage events with over 700 participants.
             </li>
