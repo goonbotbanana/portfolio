@@ -21,10 +21,10 @@ function Index() {
           Florida. Here are some of my favorite technologies to play with:
         </p>
         <img
-          src="https://skillicons.dev/icons?i=js,ts,html,css,java,tailwind,react,figma,nodejs,vercel,vite"
+          src="https://skillicons.dev/icons?i=js,ts,html,css,java,tailwind,react,nextjs,figma,vercel,vite"
           className="mt-4 max-w-md opacity-90"
         ></img>
-        <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
+        <hr className="my-6 border-gray-400 dark:border-gray-500"></hr>
         <p className="text-left">
           I most enjoy building software in the sweet spot where design and
           engineering meet — things that look good but are also built well under
@@ -47,29 +47,11 @@ function Index() {
           </a>{" "}
           to attend.
         </p>
-        {/* <p className="text-left mt-4">
-          At the moment, I'm working on a{" "}
-          <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://github.com/MewingCentral/FEPrep"
-            target="_blank"
-          >
-            learning platform
-          </a>{" "}
-          for students at UCF preparing to take the{" "}
-          <a
-            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-dark-blue"
-            href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
-            target="_blank"
-          >
-            Foundation Exam.
-          </a>{" "}
-        </p> */}
         <p className="text-left mt-4">
           I'm always looking to learn more and improve my skills in software
           engineering through collaborative work.
         </p>
-        <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
+        <hr className="my-6 border-gray-400 dark:border-gray-500"></hr>
         <p className="text-left">
           You can reach me at{" "}
           <a
