@@ -81,7 +81,7 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Increasing community involvement and managing the Roblox
+              Increasing organization outreach and managing the Roblox
               Development Club's data through the development of the club site.
             </li>
           </ul>
