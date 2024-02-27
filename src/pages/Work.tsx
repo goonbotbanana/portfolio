@@ -71,7 +71,7 @@ function Work() {
               <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
             </a>
             <img
-              src="https://skillicons.dev/icons?i=ts,tailwind,next"
+              src="https://skillicons.dev/icons?i=ts,tailwind,angular"
               className="flex flex-row max-h-9 opacity-90"
             ></img>
           </h1>
@@ -92,7 +92,7 @@ function Work() {
               <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
             </a>
             <img
-              src="https://skillicons.dev/icons?i=ts,react,tailwind"
+              src="https://skillicons.dev/icons?i=ts,tailwind,react"
               className="flex flex-row max-h-9 opacity-90"
             ></img>
           </h1>
