@@ -97,7 +97,7 @@ function Work() {
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Co-Founder, Front-end Developer</a>{" "}
+            <a className="justify-start">Co-Founder & Front-end Developer</a>{" "}
             <a className="italic text-xs">(Dec. 2023-Present)</a>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
