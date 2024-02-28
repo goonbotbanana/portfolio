@@ -1,20 +1,49 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <>
       <div className="flex flex-row my-4">
         <h1 className="text-xl font-semibold">
           <a className="transition-all duration-500 rounded-lg hover:text-light-blue">
-            <Link to="/">About</Link>
+            <Link
+              to="/"
+              className={
+                location.pathname == "/"
+                  ? "transition-all duration-500 underline underline-offset-2"
+                  : "no-underline"
+              }
+            >
+              About
+            </Link>
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
-            <Link to="/projects">Projects</Link>
+            <Link
+              to="/projects"
+              className={
+                location.pathname == "/projects"
+                  ? "transition-all duration-500 underline underline-offset-2"
+                  : "no-underline"
+              }
+            >
+              Projects
+            </Link>
           </a>
           <a className=" transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
-            <Link to="/work">Work</Link>
+            <Link
+              to="/work"
+              className={
+                location.pathname == "/work"
+                  ? "transition-all duration-500 underline underline-offset-2"
+                  : "no-underline"
+              }
+            >
+              Work
+            </Link>
           </a>
           <a className="items-center transition-all duration-500 hover:text-light-blue ml-2">
             {" "}
