@@ -12,6 +12,7 @@ export default {
       },
       boxShadow: {
         md: "0 0 15px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        lg: "0 0 20px -1px rgb(0 0 0 / 0.5), 0 4px 8px -2px rgb(0 0 0 / 0.1)",
       },
     },
   },

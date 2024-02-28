@@ -24,7 +24,7 @@ export default function Projects() {
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div>
             <h1 className="text-xl text-left flex flex-wrap items-center">
-              <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <a className="mr-4 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
                   Market Insight
                 </Link>{" "}
@@ -50,13 +50,13 @@ export default function Projects() {
             >
               <img
                 src={market}
-                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>
           <div>
             <h1 className="mt-4 text-xl text-left flex flex-wrap items-center">
-              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
                   Cosmic Contacts
                 </Link>{" "}
@@ -82,13 +82,13 @@ export default function Projects() {
             >
               <img
                 src={cosmic}
-                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>
           <div>
             <h1 className="mt-4 text-xl text-left flex flex-wrap items-center">
-              <a className="mt-4 mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+              <a className="mt-4 mr-4 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2">
                 <Link to="https://github.com/gabeparra/Margot.AI">
                   Margot.AI
                 </Link>
@@ -110,7 +110,7 @@ export default function Projects() {
             <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
               <img
                 src={margotai}
-                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
               ></img>
             </Link>
           </div>

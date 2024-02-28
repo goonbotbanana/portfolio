@@ -15,7 +15,7 @@ function Index() {
         <p className="text-left mt-8">
           I'm{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2"
+            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2"
             href="https://www.linkedin.com/in/pharit/"
             target="_blank"
           >
@@ -35,7 +35,7 @@ function Index() {
           the hood. When I’m not at the computer, I’m usually lifting, cooking,
           listening to{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2"
+            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2"
             href="https://www.youtube.com/watch?v=32RhpfhWxu4"
             target="_blank"
           >
@@ -43,7 +43,7 @@ function Index() {
           </a>
           , or finding another{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2"
+            className="font-semibold text-slate-500 transition-colors duration-300 ease-in-out hover:text-light-blue underline underline-offset-2"
             href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
             target="_blank"
           >
@@ -59,7 +59,7 @@ function Index() {
         <p className="text-left">
           You can reach me at{" "}
           <a
-            className="font-semibold transition-all duration-500 ease-in-out hover:text-light-blue underline underline-offset-2"
+            className="font-semibold transition-all duration-300 ease-in-out hover:text-light-blue underline underline-offset-2"
             href="mailto:pharitsmitasin@gmail.com"
           >
             pharitsmitasin@gmail.com
