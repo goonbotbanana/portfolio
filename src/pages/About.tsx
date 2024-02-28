@@ -21,8 +21,10 @@ function Index() {
           >
             Pharit
           </a>
-          , a software developer and student at the University of Central
-          Florida. Here are some of my favorite technologies to play with:
+          , a software engineer studying at UCF.{" "}
+          <p className="mt-4">
+            Here are some of my favorite technologies to play with:
+          </p>
         </p>
         <img
           src="https://skillicons.dev/icons?i=ts,tailwind,react,nextjs,figma,vercel,vite"
