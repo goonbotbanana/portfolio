@@ -53,14 +53,15 @@ function Work() {
             <a className="italic text-xs">(Jan. 2024-Present)</a>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
+            {/* <li>
               Developing an administrative tool with which will allow hackathon
               organizers to efficiently manage events with over 700
               participants.
-            </li>
+            </li> */}
             <li className="mt-2">
               Curating solutions with technologies such as TursoDB, Clerk, and
-              Turborepo, to optimize system performance.
+              Turborepo, to optimize system performance and efficiency for
+              hackathon organizers.
             </li>
           </ul>
         </div>
@@ -122,16 +123,8 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Resolved defects within the preferences and consents admin tool
-              using Javascript and React.
-            </li>
-            <li className="mt-2">
-              Contributed to the implementation of internal tools by creating
-              technical design documentation.
-            </li>
-            <li className="mt-2">
-              Wrote and updated OpenAPI/Swagger documentation for API endpoints
-              to be leveraged by integrating teams.
+              Developed the admin tool for the preferences and consents team on
+              React.
             </li>
           </ul>
         </div>
