@@ -7,7 +7,7 @@ function Nav() {
     <>
       <div className="flex flex-row my-4">
         <h1 className="text-xl font-semibold">
-          <a className="transition-all duration-300 rounded-lg hover:text-light-blue">
+          <a className="transition-all duration-300 rounded-lg hover:text-slate-500">
             <Link
               to="/"
               className={
@@ -19,7 +19,7 @@ function Nav() {
               About
             </Link>
           </a>
-          <a className=" transition-all duration-300 hover:text-light-blue ml-2">
+          <a className=" transition-all duration-300 hover:text-slate-500 ml-2">
             {" "}
             <Link
               to="/projects"
@@ -32,7 +32,7 @@ function Nav() {
               Projects
             </Link>
           </a>
-          <a className=" transition-all duration-300 hover:text-light-blue ml-2">
+          <a className=" transition-all duration-300 hover:text-slate-500 ml-2">
             {" "}
             <Link
               to="/work"
@@ -45,7 +45,7 @@ function Nav() {
               Work
             </Link>
           </a>
-          <a className="items-center transition-all duration-300 hover:text-light-blue ml-2">
+          <a className="items-center transition-all duration-300 hover:text-slate-500 ml-2">
             {" "}
             <Link
               to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
@@ -57,7 +57,7 @@ function Nav() {
         </h1>
         <a href="https://github.com/goonbotbanana" target="_blank">
           <svg
-            className="fill-black w-6 h-auto hover:fill-light-blue duration-300 ml-3"
+            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -68,7 +68,7 @@ function Nav() {
         </a>
         <a href="https://www.linkedin.com/in/pharit/" target="_blank">
           <svg
-            className="fill-black w-6 h-auto hover:fill-light-blue duration-300 ml-3"
+            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
