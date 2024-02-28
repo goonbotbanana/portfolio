@@ -12,7 +12,7 @@ function Nav() {
               to="/"
               className={
                 location.pathname == "/"
-                  ? "transition-all duration-500 underline underline-offset-2"
+                  ? "transition-all duration-500 text-slate-500 underline underline-offset-2 pointer-events-none"
                   : "no-underline"
               }
             >
@@ -25,7 +25,7 @@ function Nav() {
               to="/projects"
               className={
                 location.pathname == "/projects"
-                  ? "transition-all duration-500 underline underline-offset-2"
+                  ? "transition-all duration-500 text-slate-500 underline underline-offset-2 pointer-events-none"
                   : "no-underline"
               }
             >
@@ -38,7 +38,7 @@ function Nav() {
               to="/work"
               className={
                 location.pathname == "/work"
-                  ? "transition-all duration-500 underline underline-offset-2"
+                  ? "transition-all duration-500 text-slate-500 underline underline-offset-2 pointer-events-none"
                   : "no-underline"
               }
             >
