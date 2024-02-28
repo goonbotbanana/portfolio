@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-row my-4">
         <h1 className="text-xl font-semibold">
           <a className="transition-all duration-500 rounded-lg hover:text-light-blue">
             <Link to="/">About</Link>
