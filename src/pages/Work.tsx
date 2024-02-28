@@ -59,9 +59,8 @@ function Work() {
               participants.
             </li> */}
             <li className="mt-2">
-              Curating solutions with technologies such as TursoDB, Clerk, and
-              Turborepo, to optimize system performance and efficiency for
-              hackathon organizers.
+              Curating solutions with emerging technologies to optimize system
+              performance and improve efficiency for hackathon organizers.
             </li>
           </ul>
         </div>
@@ -81,8 +80,8 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Increasing organization outreach and managing the Roblox
-              Development Club's data through the development of the club site.
+              Increasing organization outreach and improving communication with
+              the club population.
             </li>
           </ul>
         </div>
@@ -102,8 +101,7 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Working on a mobile startup for college students on the dating
-              market.
+              Bringing college affiliates closer through a mobile startup.
             </li>
           </ul>
         </div>
@@ -123,8 +121,8 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Developed the admin tool for the preferences and consents team on
-              React.
+              Improved auditing and consumer preference/consent tracking on the
+              admin tool.
             </li>
           </ul>
         </div>
