@@ -12,7 +12,7 @@ export default function Projects() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
           rel="stylesheet"
         />
-        <div className="mx-[5%] md:mx-[15%] lg:mx-[25%] min-h-screen flex flex-col">
+        <div className="mx-[0%] md:mx-[15%] lg:mx-[25%] min-h-screen flex flex-col">
           <Nav />
           <p className="text-left mt-4">
             <p className="text-left mt-4">
@@ -23,7 +23,7 @@ export default function Projects() {
           </p>
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div>
-            <h1 className="text-xl text-left flex  items-center">
+            <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
               <a className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
                   Market Insight
@@ -32,7 +32,7 @@ export default function Projects() {
 
               <img
                 src="https://skillicons.dev/icons?i=js,tailwind,react"
-                className="flex flex-row max-h-9 opacity-90"
+                className="max-h-9 opacity-90"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
