@@ -22,7 +22,7 @@ export default function Projects() {
             <p className="text-left mt-2">Here are some of my highlights.</p>
           </p>
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
-          <div>
+          <div className="mt-4">
             <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
               <a className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
@@ -54,7 +54,7 @@ export default function Projects() {
               ></img>
             </Link>
           </div>
-          <div>
+          <div className="mt-4">
             <h1 className="mt-4 text-xl text-left flex  items-center">
               <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
                 <Link to="https://github.com/gabeparra/Margot.AI">
@@ -71,9 +71,16 @@ export default function Projects() {
             </h2>
             <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
               <li>
-                Winner of the ”Best Use of MongoDB Atlas” award at the 2023
-                Knight Hacks, Margot is an AI chatbot that helps kids learn
-                Spanish.
+                Awarded ”Best Use of MongoDB Atlas” at the{" "}
+                <a
+                  className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                  href="https://www.ucf.edu/news/success-hacks-700-students-attend-ucf-knight-hacks-largest-hackathon/"
+                  target="_blank"
+                >
+                  2023 Knight Hacks
+                </a>
+                , Margot is an AI chatbot that assists in the learning of ESL
+                children.
               </li>
             </ul>
             <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
@@ -83,7 +90,7 @@ export default function Projects() {
               ></img>
             </Link>
           </div>
-          <div>
+          <div className="mt-4">
             <h1 className="mt-4 text-xl text-left flex items-center">
               <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
