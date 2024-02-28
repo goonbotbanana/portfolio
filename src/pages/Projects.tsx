@@ -79,7 +79,7 @@ export default function Projects() {
                 >
                   2023 Knight Hacks
                 </a>
-                , Margot is an AI chatbot that assists in the learning of ESL
+                , Margot is an AI chatbot that assists in the education of ESL
                 children.
               </li>
             </ul>
