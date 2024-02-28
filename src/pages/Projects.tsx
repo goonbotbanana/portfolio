@@ -36,7 +36,7 @@ export default function Projects() {
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-              How are my stocks doing today?
+              How's my portfolio today?
             </h2>
             <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
               <li>
