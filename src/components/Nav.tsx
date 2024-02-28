@@ -5,7 +5,7 @@ function Nav() {
   console.log(location.pathname);
   return (
     <>
-      <div className="flex flex-row my-4">
+      <div className="text-left flex flex-row my-4">
         <h1 className="text-xl font-semibold">
           <a className="transition-all duration-300 rounded-lg hover:text-slate-500">
             <Link
