@@ -16,8 +16,8 @@ export default function Projects() {
           <Nav />
           <p className="text-left mt-4">
             <p className="text-left mt-4">
-              I love to craft beautiful designs and I thrive on the front end of
-              applications.
+              I love to craft beautiful interfaces and I thrive on the front end
+              of applications.
             </p>
             <p className="text-left mt-2">Here are some of my highlights.</p>
           </p>
