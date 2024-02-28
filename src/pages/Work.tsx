@@ -39,7 +39,7 @@ function Work() {
         </p>
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
-          <h1 className="flex flex-wrap items-center text-xl text-left mt-2">
+          <h1 className="flex items-center text-xl text-left mt-2">
             <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
             </a>
@@ -65,7 +65,7 @@ function Work() {
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+          <h1 className="flex items-center text-xl text-left mt-4 shrink">
             <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
             </a>
@@ -86,7 +86,7 @@ function Work() {
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+          <h1 className="flex items-center text-xl text-left mt-4">
             <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
             </a>
@@ -106,7 +106,7 @@ function Work() {
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+          <h1 className="flex items-center text-xl text-left mt-4">
             <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
