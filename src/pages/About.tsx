@@ -25,7 +25,7 @@ function Index() {
           Florida. Here are some of my favorite technologies to play with:
         </p>
         <img
-          src="https://skillicons.dev/icons?i=js,ts,html,css,java,tailwind,react,nextjs,figma,vercel,vite"
+          src="https://skillicons.dev/icons?i=ts,tailwind,react,nextjs,figma,vercel,vite"
           className="mt-4 max-w-md opacity-90"
         ></img>
         <hr className="my-6 border-gray-400 dark:border-gray-500"></hr>
