@@ -39,6 +39,34 @@ function Work() {
         </p>
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
+          <h1 className="flex items-center text-xl text-left mt-4">
+            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
+              <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
+            </a>
+            <img
+              src="https://skillicons.dev/icons?i=js,react"
+              className="flex flex-row max-h-9 opacity-90"
+            ></img>
+          </h1>
+          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+            <a className="justify-start">Application Development Intern</a>{" "}
+            <a className="italic text-xs">(May-Aug. 2023)</a>
+          </h2>
+          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+            <li>
+              Improved auditing and consumer preference/consent tracking on the
+              admin tool.
+            </li>
+            <li>
+              <i>
+                Returning for the{" "}
+                <b className="text-slate-500">summer of 2024</b>!
+              </i>{" "}
+              &#127881;
+            </li>
+          </ul>
+        </div>
+        <div className="mt-4">
           <h1 className="flex items-center text-xl text-left mt-2">
             <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
@@ -105,28 +133,6 @@ function Work() {
             </li>
           </ul>
         </div>
-        <div className="mt-4">
-          <h1 className="flex items-center text-xl text-left mt-4">
-            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
-              <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
-            </a>
-            <img
-              src="https://skillicons.dev/icons?i=js,react"
-              className="flex flex-row max-h-9 opacity-90"
-            ></img>
-          </h1>
-          <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Application Development Intern</a>{" "}
-            <a className="italic text-xs">(May-Aug. 2023)</a>
-          </h2>
-          <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-            <li>
-              Improved auditing and consumer preference/consent tracking on the
-              admin tool.
-            </li>
-          </ul>
-        </div>
-        {/* <hr className="my-4 border-gray-400 dark:border-gray-500"></hr> */}
       </div>
     </>
   );
