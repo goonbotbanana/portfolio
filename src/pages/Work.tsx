@@ -15,7 +15,7 @@ function Work() {
         <p className="text-left mt-8">
           At the moment, I'm working on {""}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out underline underline-offset-2 hover:text-light-blue"
+            className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
             href="https://github.com/MewingCentral/FEPrep"
             target="_blank"
           >
@@ -24,7 +24,7 @@ function Work() {
           which is a learning platform for computer science students preparing
           to take the{" "}
           <a
-            className="font-semibold text-slate-500 transition-colors duration-500 ease-in-out underline underline-offset-2 hover:text-light-blue"
+            className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
             href="https://www.cs.ucf.edu/ucf_section/foundation-exam/"
             target="_blank"
           >
@@ -37,11 +37,10 @@ function Work() {
             professors in the forums.
           </p>
         </p>
-        {/* <h1 className="text-xl font-semibold text-left mt-4">Experience</h1> */}
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
-          <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+          <h1 className="flex flex-wrap items-center text-xl text-left mt-2">
+            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
             </a>
             <img
@@ -55,19 +54,19 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Developing an administrative tool with React and TypeScript,
-              enhancing the capabilities of hackathon organizers to efficiently
-              manage events with over 700 participants.
+              Developing an administrative tool with which will allow hackathon
+              organizers to efficiently manage events with over 700
+              participants.
             </li>
             <li className="mt-2">
-              Embracing cutting-edge solutions and technologies like TursoDB,
-              Clerk, and Turborepo, to optimize system performance.
+              Curating solutions with technologies such as TursoDB, Clerk, and
+              Turborepo, to optimize system performance.
             </li>
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
             </a>
             <img
@@ -87,8 +86,8 @@ function Work() {
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
             </a>
             <img
@@ -108,8 +107,8 @@ function Work() {
           </ul>
         </div>
         <div className="mt-4">
-          <h1 className="flex flex-wrap items-center text-xl text-left">
-            <a className="mr-4 transition-colors duration-500 ease-in-out hover:text-light-blue underline underline-offset-2">
+          <h1 className="flex flex-wrap items-center text-xl text-left mt-4">
+            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
             <img
