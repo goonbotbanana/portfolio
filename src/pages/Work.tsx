@@ -54,8 +54,7 @@ function Work() {
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
-              Improved auditing and consumer preference/consent tracking on the
-              admin tool.
+              Improved consumer preference/consent auditing on the admin tool.
             </li>
             <li>
               <i>
