@@ -55,6 +55,35 @@ export default function Projects() {
             </Link>
           </div>
           <div>
+            <h1 className="mt-4 text-xl text-left flex  items-center">
+              <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
+                <Link to="https://github.com/gabeparra/Margot.AI">
+                  Margot.AI
+                </Link>
+              </a>
+              <img
+                src="https://skillicons.dev/icons?i=ts,react,mongo"
+                className="mt-4 flex flex-row max-h-9 opacity-90"
+              ></img>
+            </h1>
+            <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+              Helping your kids have fun while learning Spanish!
+            </h2>
+            <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+              <li>
+                Winner of the ”Best Use of MongoDB Atlas” award at the 2023
+                Knight Hacks, Margot is an AI chatbot that helps kids learn
+                Spanish.
+              </li>
+            </ul>
+            <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
+              <img
+                src={margotai}
+                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+              ></img>
+            </Link>
+          </div>
+          <div>
             <h1 className="mt-4 text-xl text-left flex items-center">
               <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
@@ -86,34 +115,7 @@ export default function Projects() {
               ></img>
             </Link>
           </div>
-          <div>
-            <h1 className="mt-4 text-xl text-left flex  items-center">
-              <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
-                <Link to="https://github.com/gabeparra/Margot.AI">
-                  Margot.AI
-                </Link>
-              </a>
-              <img
-                src="https://skillicons.dev/icons?i=ts,react,mongo"
-                className="mt-4 flex flex-row max-h-9 opacity-90"
-              ></img>
-            </h1>
-            <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-              Helping your kids have fun while learning Spanish!
-            </h2>
-            <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-              <li>
-                Awarded ”Best Use of MongoDB Atlas” at the 2023 "Knight Hacks"
-                hackathon out of 322 participants.
-              </li>
-            </ul>
-            <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
-              <img
-                src={margotai}
-                className="object-cover mt-4 opacity-90 shadow-md transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
-              ></img>
-            </Link>
-          </div>
+          {/* end of screen div */}
         </div>
       </>
     </div>
