@@ -24,7 +24,10 @@ export default function Projects() {
           <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
           <div className="mt-4">
             <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
-              <a className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
+              <a
+                className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                href="https://github.com/goonbotbanana/Market-Insight"
+              >
                 <Link to="https://github.com/goonbotbanana/Market-Insight">
                   Market Insight
                 </Link>{" "}
@@ -33,6 +36,7 @@ export default function Projects() {
               <img
                 src="https://skillicons.dev/icons?i=js,tailwind,react"
                 className="max-h-9 opacity-90"
+                alt="js, tailwind, react"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
@@ -47,16 +51,21 @@ export default function Projects() {
             <Link
               to="https://github.com/goonbotbanana/Market-Insight"
               target="_blank"
+              aria-label="Market Insight"
             >
               <img
                 src={market}
                 className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                alt="Market Insight Gif"
               ></img>
             </Link>
           </div>
           <div className="mt-4">
             <h1 className="mt-4 text-xl text-left flex  items-center">
-              <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
+              <a
+                className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                href="https://github.com/gabeparra/Margot.AI"
+              >
                 <Link to="https://github.com/gabeparra/Margot.AI">
                   Margot.AI
                 </Link>
@@ -64,6 +73,7 @@ export default function Projects() {
               <img
                 src="https://skillicons.dev/icons?i=ts,react,mongo"
                 className="mt-4 flex flex-row max-h-9 opacity-90"
+                alt="ts, react, mongo"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
@@ -83,16 +93,24 @@ export default function Projects() {
                 children.
               </li>
             </ul>
-            <Link to="https://github.com/gabeparra/Margot.AI" target="_blank">
+            <Link
+              to="https://github.com/gabeparra/Margot.AI"
+              target="_blank"
+              aria-label="Margot.AI"
+            >
               <img
                 src={margotai}
                 className="object-cover mt-4 opacity-90 shadow-md transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                alt="Margot.AI Gif"
               ></img>
             </Link>
           </div>
           <div className="mt-4">
             <h1 className="mt-4 text-xl text-left flex items-center">
-              <a className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black">
+              <a
+                className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                href="https://github.com/CoderSolian/Cosmic-Contacts"
+              >
                 <Link to="https://github.com/CoderSolian/Cosmic-Contacts">
                   Cosmic Contacts
                 </Link>{" "}
@@ -101,6 +119,7 @@ export default function Projects() {
               <img
                 src="https://skillicons.dev/icons?i=js,php,mysql"
                 className="mt-4 flex flex-row max-h-9 opacity-90"
+                alt="js, php, mysql"
               ></img>
             </h1>
             <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
@@ -115,10 +134,12 @@ export default function Projects() {
             <Link
               to="https://github.com/CoderSolian/Cosmic-Contacts"
               target="_blank"
+              aria-label="Cosmic Contacts"
             >
               <img
                 src={cosmic}
                 className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                alt="Cosmic Contacts Gif"
               ></img>
             </Link>
           </div>

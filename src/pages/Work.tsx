@@ -40,17 +40,23 @@ function Work() {
         <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
         <div>
           <h1 className="flex items-center text-xl text-left mt-4">
-            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
+            <a
+              className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
+              href="https://www.floridablue.com/"
+            >
               <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
             </a>
             <img
               src="https://skillicons.dev/icons?i=js,react"
               className="flex flex-row max-h-9 opacity-90"
+              alt="js,react"
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Application Development Intern</a>{" "}
-            <a className="italic text-xs">(May-Aug. 2023)</a>
+            <p className="justify-start text-slate-500">
+              Application Development Intern{" "}
+              <span className="text-slate-500 text-xs">(May-Aug. 2023)</span>
+            </p>{" "}
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
@@ -67,17 +73,25 @@ function Work() {
         </div>
         <div className="mt-4">
           <h1 className="flex items-center text-xl text-left mt-2">
-            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
+            <a
+              className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
+              href="https://club.knighthacks.org/"
+            >
               <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
             </a>
             <img
               src="https://skillicons.dev/icons?i=ts,tailwind,next"
               className="flex flex-row max-h-9 opacity-90"
+              alt="ts,tailwind,next"
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Full-stack Developer</a>{" "}
-            <a className="italic text-xs">(Jan. 2024-Present)</a>
+            <p className="justify-start text-slate-500">
+              Full-stack Developer{" "}
+              <span className="text-slate-500 text-xs">
+                (Feb. 2024-Present)
+              </span>
+            </p>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             {/* <li>
@@ -93,17 +107,25 @@ function Work() {
         </div>
         <div className="mt-4">
           <h1 className="flex items-center text-xl text-left mt-4 shrink">
-            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
+            <a
+              className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
+              href="https://discord.gg/GWG4wzz88b"
+            >
               <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
             </a>
             <img
               src="https://skillicons.dev/icons?i=ts,tailwind,angular"
               className="flex flex-row max-h-9 opacity-90"
+              alt="ts,tailwind,angular"
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Webmaster</a>{" "}
-            <a className="italic text-xs">(Jan. 2024-Present)</a>
+            <p className="justify-start text-slate-500">
+              Webmaster{" "}
+              <span className="text-slate-500 text-xs">
+                (Feb. 2024-Present)
+              </span>
+            </p>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>
@@ -114,17 +136,25 @@ function Work() {
         </div>
         <div className="mt-4">
           <h1 className="flex items-center text-xl text-left mt-4">
-            <a className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black">
+            <a
+              className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
+              href="https://github.com/Banana-Byte-LLC"
+            >
               <Link to={"https://github.com/Banana-Byte-LLC"}>Banana Byte</Link>
             </a>
             <img
               src="https://skillicons.dev/icons?i=ts,tailwind,react"
               className="flex flex-row max-h-9 opacity-90"
+              alt="ts,tailwind,react"
             ></img>
           </h1>
           <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-            <a className="justify-start">Co-Founder & Front-end Developer</a>{" "}
-            <a className="italic text-xs">(Dec. 2023-Present)</a>
+            <p className="justify-start text-slate-500">
+              Co-Founder & Front-end Developer{" "}
+              <span className="text-slate-500 text-xs">
+                (Dec. 2023-Present)
+              </span>
+            </p>
           </h2>
           <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
             <li>

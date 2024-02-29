@@ -7,7 +7,10 @@ function Nav() {
     <>
       <div className="text-left flex flex-row my-4">
         <h1 className="text-xl font-semibold">
-          <a className="transition-all duration-300 rounded-lg hover:text-slate-500">
+          <a
+            className="transition-all duration-300 rounded-lg hover:text-slate-500"
+            href="#/"
+          >
             <Link
               to="/"
               className={
@@ -19,7 +22,10 @@ function Nav() {
               About
             </Link>
           </a>
-          <a className=" transition-all duration-300 hover:text-slate-500 ml-2">
+          <a
+            className=" transition-all duration-300 hover:text-slate-500 ml-2"
+            href="#/projects"
+          >
             {" "}
             <Link
               to="/projects"
@@ -32,7 +38,10 @@ function Nav() {
               Projects
             </Link>
           </a>
-          <a className=" transition-all duration-300 hover:text-slate-500 ml-2">
+          <a
+            className=" transition-all duration-300 hover:text-slate-500 ml-2"
+            href="#/work"
+          >
             {" "}
             <Link
               to="/work"
@@ -45,7 +54,10 @@ function Nav() {
               Work
             </Link>
           </a>
-          <a className="items-center transition-all duration-300 hover:text-slate-500 ml-2">
+          <a
+            className="items-center transition-all duration-300 hover:text-slate-500 ml-2"
+            href="#/resume"
+          >
             {" "}
             <Link
               to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
