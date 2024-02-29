@@ -15,12 +15,12 @@ function Work() {
         <Nav />
         <AnimatePresence>
           <motion.div
-            initial={{ opacity: 0.3 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0,
+              delay: 0.1,
             }}
           >
             <p className="text-left mt-8">
@@ -58,7 +58,7 @@ function Work() {
                   <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
                 </a>
                 <motion.span
-                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  initial={{ opacity: 0, scale: 0.8, x: -25 }}
                   animate={{ opacity: 1, scale: 1, x: 0 }}
                   transition={{
                     duration: 0.5,
@@ -105,7 +105,7 @@ function Work() {
                   <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
                 </a>
                 <motion.span
-                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  initial={{ opacity: 0, scale: 0.8, x: -25 }}
                   animate={{ opacity: 1, scale: 1, x: 0 }}
                   transition={{
                     duration: 0.5,
@@ -151,7 +151,7 @@ function Work() {
                   <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
                 </a>
                 <motion.span
-                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  initial={{ opacity: 0, scale: 0.8, x: -25 }}
                   animate={{ opacity: 1, scale: 1, x: 0 }}
                   transition={{
                     duration: 0.5,
@@ -193,7 +193,7 @@ function Work() {
                   </Link>
                 </a>
                 <motion.span
-                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  initial={{ opacity: 0, scale: 0.8, x: -25 }}
                   animate={{ opacity: 1, scale: 1, x: 0 }}
                   transition={{
                     duration: 0.5,

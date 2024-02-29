@@ -14,11 +14,11 @@ function Index() {
         <Navbar />
         <AnimatePresence>
           <motion.div
-            initial={{ opacity: 0.3 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 0,
+              delay: 0.1,
             }}
             exit={{ opacity: 0 }}
           >
@@ -35,11 +35,11 @@ function Index() {
               <p>Here are some of my favorite technologies to play with:</p>
             </p>
             <motion.span
-              initial={{ opacity: 0.3, scale: 0.8, x: -55 }}
+              initial={{ opacity: 0, scale: 0.8, x: -55 }}
               animate={{ opacity: 1, scale: 1, x: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0,
+                delay: 0.1,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
               className="flex flex-row items-center"

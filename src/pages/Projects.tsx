@@ -17,12 +17,12 @@ export default function Projects() {
           <Nav />
           <AnimatePresence>
             <motion.div
-              initial={{ opacity: 0.3 }}
+              initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0,
+                delay: 0.1,
               }}
             >
               <p className="text-left mt-8">
@@ -46,11 +46,11 @@ export default function Projects() {
                     </Link>{" "}
                   </a>
                   <motion.span
-                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    initial={{ opacity: 0, scale: 0.8, x: -25 }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{
                       duration: 0.5,
-                      delay: 0,
+                      delay: 0.1,
                       ease: [0, 0.71, 0.2, 1.01],
                     }}
                     className="flex flex-row items-center"
@@ -94,11 +94,11 @@ export default function Projects() {
                     </Link>
                   </a>
                   <motion.span
-                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    initial={{ opacity: 0, scale: 0.8, x: -25 }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{
                       duration: 0.5,
-                      delay: 0,
+                      delay: 0.1,
                       ease: [0, 0.71, 0.2, 1.01],
                     }}
                     className="flex flex-row items-center"
@@ -150,11 +150,11 @@ export default function Projects() {
                     </Link>{" "}
                   </a>
                   <motion.span
-                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    initial={{ opacity: 0, scale: 0.8, x: -25 }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
                     transition={{
                       duration: 0.5,
-                      delay: 0,
+                      delay: 0.1,
                       ease: [0, 0.71, 0.2, 1.01],
                     }}
                     className="flex flex-row items-center"

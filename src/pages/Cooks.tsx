@@ -14,12 +14,12 @@ function Cooks() {
         <Nav />
         <AnimatePresence>
           <motion.div
-            initial={{ opacity: 0.3 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0,
+              delay: 0.1,
             }}
           >
             <p className="text-left mt-8">
