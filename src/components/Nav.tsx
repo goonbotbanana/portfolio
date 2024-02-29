@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { memo } from "react";
+// import { memo } from "react";
 import { motion } from "framer-motion";
 
 // const Image = memo(function Image({ kanyegoat }: { kanyegoat: string }) {
