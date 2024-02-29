@@ -109,7 +109,7 @@ function Nav() {
             <motion.div whileHover={{ scale: 1.2 }}>
               {" "}
               <img
-                src="favicon.ico"
+                src="kanyegoat.svg"
                 alt="goat"
                 width="24"
                 height="24"
