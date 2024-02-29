@@ -32,7 +32,7 @@ function Index() {
             </p>
             <img
               src="https://skillicons.dev/icons?i=ts,tailwind,react,nextjs,figma,vercel,vite"
-              className="mt-4 max-w-md w-auto h-auto opacity-90"
+              className="mt-4 opacity-90"
               alt="typescript, tailwind, react, next.js, figma, vercel, and vite"
             ></img>
             <hr className="my-6 border-gray-400 dark:border-gray-500"></hr>
