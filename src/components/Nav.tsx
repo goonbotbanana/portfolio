@@ -73,7 +73,7 @@ function Nav() {
           aria-label="github"
         >
           <svg
-            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3"
+            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3 hover:ring-2 ring-light-blue ring-offset-2 rounded-md"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -88,7 +88,7 @@ function Nav() {
           aria-label="linkedin"
         >
           <svg
-            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3"
+            className="fill-black w-6 h-auto hover:fill-slate-500 duration-300 ml-3 hover:ring-2 ring-light-blue ring-offset-2"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -104,7 +104,7 @@ function Nav() {
             alt="goat"
             width="24"
             height="24"
-            className="fill-black w-6 h-auto ml-3 min-w-6 transition-all duration-300 hover:ring-2 ring-light-blue ring-offset-2"
+            className="w-6 h-auto ml-3 min-w-6 transition-all duration-300 hover:ring-2 ring-light-blue ring-offset-2"
           />
         </a>
       </div>
