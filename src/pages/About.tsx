@@ -16,6 +16,10 @@ function Index() {
           <motion.div
             initial={{ opacity: 0.3 }}
             animate={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0,
+            }}
             exit={{ opacity: 0 }}
           >
             <p className="text-left mt-8">
@@ -30,11 +34,22 @@ function Index() {
               , a software engineer studying at UCF.{" "}
               <p>Here are some of my favorite technologies to play with:</p>
             </p>
-            <img
-              src="https://skillicons.dev/icons?i=ts,tailwind,react,nextjs,figma,vercel,vite"
-              className="mt-4 opacity-90"
-              alt="typescript, tailwind, react, next.js, figma, vercel, and vite"
-            ></img>
+            <motion.span
+              initial={{ opacity: 0.3, scale: 0.8, x: -55 }}
+              animate={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+              className="flex flex-row items-center"
+            >
+              <img
+                src="https://skillicons.dev/icons?i=ts,tailwind,react,nextjs,figma,vercel,vite"
+                className="mt-4 opacity-90"
+                alt="typescript, tailwind, react, next.js, figma, vercel, and vite"
+              ></img>
+            </motion.span>
             <hr className="my-6 border-gray-400 dark:border-gray-500"></hr>
             <p className="text-left">
               I most enjoy building software in the sweet spot where design and

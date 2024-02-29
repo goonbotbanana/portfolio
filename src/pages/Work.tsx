@@ -18,6 +18,10 @@ function Work() {
             initial={{ opacity: 0.3 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0,
+            }}
           >
             <p className="text-left mt-8">
               At the moment, I'm working on {""}
@@ -53,11 +57,22 @@ function Work() {
                 >
                   <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
                 </a>
-                <img
-                  src="https://skillicons.dev/icons?i=js,react"
-                  className="flex flex-row max-h-9 opacity-90"
-                  alt="js,react"
-                ></img>
+                <motion.span
+                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  animate={{ opacity: 1, scale: 1, x: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  className="flex flex-row items-center"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=js,react"
+                    className="flex flex-row max-h-9 opacity-90"
+                    alt="js,react"
+                  ></img>
+                </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">
@@ -89,11 +104,22 @@ function Work() {
                 >
                   <Link to={"https://club.knighthacks.org/"}>Knight Hacks</Link>
                 </a>
-                <img
-                  src="https://skillicons.dev/icons?i=ts,tailwind,next"
-                  className="flex flex-row max-h-9 opacity-90"
-                  alt="ts,tailwind,next"
-                ></img>
+                <motion.span
+                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  animate={{ opacity: 1, scale: 1, x: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  className="flex flex-row items-center"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=ts,tailwind,next"
+                    className="flex flex-row max-h-9 opacity-90"
+                    alt="ts,tailwind,next"
+                  ></img>
+                </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">
@@ -124,11 +150,22 @@ function Work() {
                 >
                   <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
                 </a>
-                <img
-                  src="https://skillicons.dev/icons?i=ts,tailwind,angular"
-                  className="flex flex-row max-h-9 opacity-90"
-                  alt="ts,tailwind,angular"
-                ></img>
+                <motion.span
+                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  animate={{ opacity: 1, scale: 1, x: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  className="flex flex-row items-center"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=ts,tailwind,angular"
+                    className="flex flex-row max-h-9 opacity-90"
+                    alt="ts,tailwind,angular"
+                  ></img>
+                </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">
@@ -155,11 +192,22 @@ function Work() {
                     Banana Byte
                   </Link>
                 </a>
-                <img
-                  src="https://skillicons.dev/icons?i=ts,tailwind,react"
-                  className="flex flex-row max-h-9 opacity-90"
-                  alt="ts,tailwind,react"
-                ></img>
+                <motion.span
+                  initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                  animate={{ opacity: 1, scale: 1, x: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  className="flex flex-row items-center"
+                >
+                  <img
+                    src="https://skillicons.dev/icons?i=ts,tailwind,react"
+                    className="flex flex-row max-h-9 opacity-90"
+                    alt="ts,tailwind,react"
+                  ></img>
+                </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">

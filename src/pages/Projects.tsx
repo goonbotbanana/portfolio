@@ -20,6 +20,10 @@ export default function Projects() {
               initial={{ opacity: 0.3 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0,
+              }}
             >
               <p className="text-left mt-8">
                 <p className="text-left mt-4">
@@ -41,12 +45,22 @@ export default function Projects() {
                       Market Insight
                     </Link>{" "}
                   </a>
-
-                  <img
-                    src="https://skillicons.dev/icons?i=js,tailwind,react"
-                    className="max-h-9 opacity-90"
-                    alt="js, tailwind, react"
-                  ></img>
+                  <motion.span
+                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0,
+                      ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="flex flex-row items-center"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=js,tailwind,react"
+                      className="max-h-9 opacity-90"
+                      alt="js, tailwind, react"
+                    ></img>
+                  </motion.span>
                 </h1>
                 <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   How's my portfolio today?
@@ -79,11 +93,22 @@ export default function Projects() {
                       Margot.AI
                     </Link>
                   </a>
-                  <img
-                    src="https://skillicons.dev/icons?i=ts,react,mongo"
-                    className="mt-4 flex flex-row max-h-9 opacity-90"
-                    alt="ts, react, mongo"
-                  ></img>
+                  <motion.span
+                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0,
+                      ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="flex flex-row items-center"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=ts,react,mongo"
+                      className="mt-4 flex flex-row max-h-9 opacity-90"
+                      alt="ts, react, mongo"
+                    ></img>{" "}
+                  </motion.span>
                 </h1>
                 <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   Helping your kids have fun while learning Spanish!
@@ -124,12 +149,22 @@ export default function Projects() {
                       Cosmic Contacts
                     </Link>{" "}
                   </a>
-
-                  <img
-                    src="https://skillicons.dev/icons?i=js,php,mysql"
-                    className="mt-4 flex flex-row max-h-9 opacity-90"
-                    alt="js, php, mysql"
-                  ></img>
+                  <motion.span
+                    initial={{ opacity: 0.3, scale: 0.8, x: -25 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0,
+                      ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="flex flex-row items-center"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=js,php,mysql"
+                      className="mt-4 flex flex-row max-h-9 opacity-90"
+                      alt="js, php, mysql"
+                    ></img>
+                  </motion.span>
                 </h1>
                 <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   Keep your contacts in order with this interstellar app.
