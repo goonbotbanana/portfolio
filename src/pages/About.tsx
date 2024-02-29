@@ -14,6 +14,8 @@ function Index() {
         <Navbar />
         <AnimatePresence>
           <motion.div
+            whileInView="visible"
+            viewport={{ once: true }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
