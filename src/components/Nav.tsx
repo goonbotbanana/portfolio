@@ -111,13 +111,14 @@ function Nav() {
           </motion.div>
         </a>
 
-        <a className="ml-3" href="/#cooks">
+        {/* to be replaced with Cooks page text */}
+        {/* <a className="ml-3" href="/#cooks">
           <Link to="/cooks">
             <motion.div whileHover={{ scale: 1.2 }}>
               <Image kanyegoat={"kanyegoat.svg"} />
             </motion.div>
           </Link>
-        </a>
+        </a> */}
       </div>
     </>
   );
