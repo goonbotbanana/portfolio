@@ -2,9 +2,9 @@ import { Link, useLocation } from "react-router-dom";
 import { memo } from "react";
 import { motion } from "framer-motion";
 
-const Image = memo(function Image({ kanyegoat }: { kanyegoat: string }) {
-  return <img src={kanyegoat} className="w-6 h-auto min-w-6 rounded-lg" />;
-});
+// const Image = memo(function Image({ kanyegoat }: { kanyegoat: string }) {
+//   return <img src={kanyegoat} className="w-6 h-auto min-w-6 rounded-lg" />;
+// });
 
 function Nav() {
   const location = useLocation();
