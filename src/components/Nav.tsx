@@ -1,15 +1,23 @@
 import { Link, useLocation } from "react-router-dom";
 import { memo } from "react";
 import { motion } from "framer-motion";
-const MemoizedImage = memo(() => (
-  <img
-    src="kanyegoat.svg"
-    alt="goat"
-    width="24"
-    height="24"
-    className="w-6 h-auto min-w-6 rounded-lg"
-  />
-));
+// const MemoizedImage = memo(()) => (
+//   <img
+//     src="kanyegoat.svg"
+//     alt="goat"
+//     width="24"
+//     height="24"
+//     className="w-6 h-auto min-w-6 rounded-lg"
+//   />
+// ));
+
+// const Image = React.memo(function Image({ kanyegoat.svg }) {
+//   return <img src={kanyegoat.svg} className="w-6 h-auto min-w-6 rounded-lg"/>;
+// });
+
+const Image = memo(function Image({ kanyegoat }: { kanyegoat: string }) {
+  return <img src={kanyegoat} className="w-6 h-auto min-w-6 rounded-lg" />;
+});
 
 function Nav() {
   const location = useLocation();
@@ -118,7 +126,7 @@ function Nav() {
         <a className="ml-3" href="/#cooks">
           <Link to="/cooks">
             <motion.div whileHover={{ scale: 1.2 }}>
-              <MemoizedImage />
+              <Image kanyegoat={"kanyegoat.svg"} />
             </motion.div>
           </Link>
         </a>
