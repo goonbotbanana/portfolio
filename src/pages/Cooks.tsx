@@ -1,6 +1,5 @@
 // import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Nav from "../components/Nav";
 
