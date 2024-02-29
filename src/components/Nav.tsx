@@ -1,5 +1,15 @@
 import { Link, useLocation } from "react-router-dom";
+import { memo } from "react";
 import { motion } from "framer-motion";
+const MemoizedImage = memo(() => (
+  <img
+    src="kanyegoat.svg"
+    alt="goat"
+    width="24"
+    height="24"
+    className="w-6 h-auto min-w-6 rounded-lg"
+  />
+));
 
 function Nav() {
   const location = useLocation();
@@ -104,17 +114,11 @@ function Nav() {
             </svg>
           </motion.div>
         </a>
+
         <a className="ml-3" href="/#cooks">
           <Link to="/cooks">
             <motion.div whileHover={{ scale: 1.2 }}>
-              {" "}
-              <img
-                src="kanyegoat.svg"
-                alt="goat"
-                width="24"
-                height="24"
-                className="w-6 h-auto min-w-6 rounded-lg"
-              />
+              <MemoizedImage />
             </motion.div>
           </Link>
         </a>
