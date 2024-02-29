@@ -90,7 +90,7 @@ export default function Projects() {
                 </h2>
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
                   <li>
-                    Awarded ”Best Use of MongoDB Atlas” at the{" "}
+                    Awarded ”Best Use of MongoDB Atlas” &#129351; at the{" "}
                     <a
                       className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                       href="https://www.ucf.edu/news/success-hacks-700-students-attend-ucf-knight-hacks-largest-hackathon/"
