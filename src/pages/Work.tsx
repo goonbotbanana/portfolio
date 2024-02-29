@@ -55,7 +55,9 @@ function Work() {
                   className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
                   href="https://www.floridablue.com/"
                 >
-                  <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
+                  <Link to={"https://www.floridablue.com/"}>
+                    Blue Cross and Blue Shield of Florida
+                  </Link>
                 </a>
                 <motion.span
                   initial={{ opacity: 0, scale: 0.8, x: -25 }}
