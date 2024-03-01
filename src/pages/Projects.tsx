@@ -76,11 +76,19 @@ export default function Projects() {
                   target="_blank"
                   aria-label="Market Insight"
                 >
-                  <img
+                  <motion.img
                     src={market}
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
                     alt="Market Insight Gif"
-                  ></img>
+                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{
+                      duration: 0.1,
+                      delay: 0,
+                      ease: "easeInOut",
+                    }}
+                  ></motion.img>
                 </Link>
               </div>
               <div className="mt-4">
@@ -132,11 +140,19 @@ export default function Projects() {
                   target="_blank"
                   aria-label="Margot.AI"
                 >
-                  <img
+                  <motion.img
                     src={margotai}
-                    className="object-cover mt-4 opacity-90 shadow-md transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
                     alt="Margot.AI Gif"
-                  ></img>
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
+                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{
+                      duration: 0.1,
+                      delay: 0,
+                      ease: "easeInOut",
+                    }}
+                  ></motion.img>
                 </Link>
               </div>
               <div className="mt-4">
@@ -180,11 +196,19 @@ export default function Projects() {
                   target="_blank"
                   aria-label="Cosmic Contacts"
                 >
-                  <img
+                  <motion.img
                     src={cosmic}
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none hover:ring-4 ring-light-blue ring-offset-2"
                     alt="Cosmic Contacts Gif"
-                  ></img>
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
+                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{
+                      duration: 0.1,
+                      delay: 0,
+                      ease: "easeInOut",
+                    }}
+                  ></motion.img>
                 </Link>
               </div>
             </motion.div>
