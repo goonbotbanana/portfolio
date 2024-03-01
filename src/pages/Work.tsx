@@ -161,7 +161,7 @@ function Work() {
                   className="flex flex-row items-center"
                 >
                   <img
-                    src="https://skillicons.dev/icons?i=ts,tailwind,angular"
+                    src="https://skillicons.dev/icons?i=ts,tailwind,vue"
                     className="flex flex-row max-h-9 opacity-90"
                     alt="ts,tailwind,angular"
                   ></img>
