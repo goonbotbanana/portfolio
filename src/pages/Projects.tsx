@@ -80,7 +80,8 @@ export default function Projects() {
                     src={market}
                     className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
                     alt="Market Insight Gif"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05, opacity: 0.85 }}
+                    transition={{ duration: 0.01, delay: 0 }}
                   ></motion.img>
                 </Link>
               </div>
@@ -137,7 +138,8 @@ export default function Projects() {
                     src={margotai}
                     alt="Margot.AI Gif"
                     className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05, opacity: 0.85 }}
+                    transition={{ duration: 0.01, delay: 0 }}
                   ></motion.img>
                 </Link>
               </div>
@@ -186,7 +188,8 @@ export default function Projects() {
                     src={cosmic}
                     alt="Cosmic Contacts Gif"
                     className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05, opacity: 0.85 }}
+                    transition={{ duration: 0.01, delay: 0 }}
                   ></motion.img>
                 </Link>
               </div>
