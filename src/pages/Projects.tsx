@@ -78,16 +78,9 @@ export default function Projects() {
                 >
                   <motion.img
                     src={market}
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
                     alt="Market Insight Gif"
-                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
-                    animate={{ opacity: 1, scale: 1, x: 0 }}
                     whileHover={{ scale: 1.05 }}
-                    transition={{
-                      duration: 0.1,
-                      delay: 0,
-                      ease: "easeInOut",
-                    }}
                   ></motion.img>
                 </Link>
               </div>
@@ -143,15 +136,8 @@ export default function Projects() {
                   <motion.img
                     src={margotai}
                     alt="Margot.AI Gif"
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
-                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
-                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    className="object-cover mt-4 opacity-90 shadow-md transition-all duration-500 hover:shadow-none"
                     whileHover={{ scale: 1.05 }}
-                    transition={{
-                      duration: 0.1,
-                      delay: 0,
-                      ease: "easeInOut",
-                    }}
                   ></motion.img>
                 </Link>
               </div>
@@ -199,15 +185,8 @@ export default function Projects() {
                   <motion.img
                     src={cosmic}
                     alt="Cosmic Contacts Gif"
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-300 hover:shadow-none"
-                    initial={{ opacity: 0, scale: 0.95, x: -15 }}
-                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
                     whileHover={{ scale: 1.05 }}
-                    transition={{
-                      duration: 0.1,
-                      delay: 0,
-                      ease: "easeInOut",
-                    }}
                   ></motion.img>
                 </Link>
               </div>
