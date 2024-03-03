@@ -43,9 +43,9 @@ function Work() {
               </a>{" "}
               at UCF.
               <p className="text-left mt-4">
-                This tool allows students to review exam material through
+                This tool will allow students to review previous exams through
                 various methods as they collaborate on solutions with their
-                peers and professors in the forums.
+                peers and professors through forums.
               </p>
             </p>
             <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
