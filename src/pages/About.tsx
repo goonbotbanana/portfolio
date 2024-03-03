@@ -1,6 +1,6 @@
 import "../App.css";
 import Navbar from "../components/Nav.tsx";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 function Index() {
@@ -56,8 +56,14 @@ function Index() {
             <p className="text-left">
               I most enjoy building software in the sweet spot where design and
               engineering meet — things that look good but are also built well
-              under the hood. When I’m not at the computer, I’m usually lifting,
-              cooking, listening to{" "}
+              under the hood. When I’m not at the computer, I’m usually lifting,{" "}
+              <a
+                className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                href="/#cooks"
+              >
+                <Link to={"/cooks"}>cooking</Link>
+              </a>
+              , listening to{" "}
               <a
                 className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                 href="https://www.youtube.com/watch?v=32RhpfhWxu4"
