@@ -218,9 +218,7 @@ function Work() {
                 </p>
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li>
-                  Bringing college affiliates closer through a mobile startup.
-                </li>
+                <li>Founding a social platform for college affiliates.</li>
               </ul>
             </div>
           </motion.div>
