@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import market from "../assets/market.gif";
 import margotai from "../assets/margotai2.png";
 import cosmic from "../assets/cosmic.gif";
+import feprep from "../assets/feprep.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Projects() {
@@ -35,6 +36,56 @@ export default function Projects() {
                 </p>
               </p>
               <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
+              <div className="mt-4">
+                <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
+                  <a
+                    className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                    href="https://github.com/MewingCentral/FEPrep"
+                  >
+                    <Link to="https://github.com/MewingCentral/FEPrep">
+                      FEPrep
+                    </Link>{" "}
+                  </a>
+                  <motion.span
+                    initial={{ opacity: 0, scale: 0.8, x: -25 }}
+                    animate={{ opacity: 1, scale: 1, x: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0.1,
+                      ease: [0, 0.71, 0.2, 1.01],
+                    }}
+                    className="flex flex-row items-center"
+                  >
+                    <img
+                      src="https://skillicons.dev/icons?i=ts,tailwind,next"
+                      className="max-h-9 opacity-90"
+                      alt="js, tailwind, react"
+                    ></img>
+                  </motion.span>
+                </h1>
+                <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+                  I can't reverse a linked list.
+                </h2>
+                <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
+                  <li>
+                    A new way to prepare for the University of Central Florida's
+                    Foundation Exam.
+                  </li>
+                </ul>
+                <Link
+                  to="https://github.com/MewingCentral/FEPrep"
+                  target="_blank"
+                  aria-label="FEPrep"
+                >
+                  <motion.img
+                    src={feprep}
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
+                    alt="FEPrep image"
+                    whileHover={{ scale: 1.05, opacity: 0.85 }}
+                    transition={{ duration: 0.01, delay: 0 }}
+                  ></motion.img>
+                </Link>
+              </div>
               <div className="mt-4">
                 <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
                   <a
