@@ -37,7 +37,7 @@ export default function Projects() {
               </p>
               <hr className="my-4 border-gray-400 dark:border-gray-500"></hr>
               <div className="mt-4">
-                <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
+                <h1 className="mt-4 text-xl text-left flex flex-row items-center">
                   <a
                     className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                     href="https://github.com/MewingCentral/FEPrep"
@@ -58,8 +58,9 @@ export default function Projects() {
                   >
                     <img
                       src="https://skillicons.dev/icons?i=ts,tailwind,next"
+                      // omit mt-4 from this class since it's at the top of the list.
                       className="max-h-9 opacity-90"
-                      alt="js, tailwind, react"
+                      alt="ts, tailwind, react"
                     ></img>
                   </motion.span>
                 </h1>
@@ -87,14 +88,14 @@ export default function Projects() {
                 </Link>
               </div>
               <div className="mt-4">
-                <h1 className="shrink-5 text-xl text-left flex flex-row items-center">
+                <h1 className="mt-4 text-xl text-left flex items-center">
                   <a
-                    className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
+                    className="mt-4 mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                     href="https://github.com/goonbotbanana/Market-Insight"
                   >
                     <Link to="https://github.com/goonbotbanana/Market-Insight">
                       Market Insight
-                    </Link>{" "}
+                    </Link>
                   </a>
                   <motion.span
                     initial={{ opacity: 0, scale: 0.8, x: -25 }}
@@ -108,9 +109,9 @@ export default function Projects() {
                   >
                     <img
                       src="https://skillicons.dev/icons?i=js,tailwind,react"
-                      className="max-h-9 opacity-90"
+                      className="mt-4 flex flex-row max-h-9 opacity-90"
                       alt="js, tailwind, react"
-                    ></img>
+                    ></img>{" "}
                   </motion.span>
                 </h1>
                 <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
