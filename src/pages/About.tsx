@@ -33,7 +33,7 @@ function Index() {
               >
                 Pharit
               </a>
-              , a software engineer studying at UCF.{" "}
+              , an investor and software engineer studying at UCF.{" "}
               <p>Here are some of my favorite technologies to play with:</p>
             </p>
             <motion.span
