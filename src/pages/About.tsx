@@ -63,15 +63,15 @@ function Index() {
               >
                 <Link to={"/cooks"}>cooking</Link>
               </a>
-              , listening to{" "}
+              {/* , listening to{" "}
               <a
                 className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                 href="https://www.youtube.com/watch?v=32RhpfhWxu4"
                 target="_blank"
               >
                 Laufey
-              </a>
-              , or finding another{" "}
+              </a> */}
+              , exploring topics in finance, or finding another{" "}
               <a
                 className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                 href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
