@@ -33,7 +33,7 @@ function Index() {
               >
                 Pharit
               </a>
-              , an investor and software engineer studying at UCF.{" "}
+              , a software engineer studying at UCF.{" "}
               <p>Here are some of my favorite technologies to play with:</p>
             </p>
             <motion.span
@@ -56,22 +56,15 @@ function Index() {
             <p className="text-left">
               I most enjoy building software in the sweet spot where design and
               engineering meet — things that look good but are also built well
-              under the hood. When I’m not at the computer, I’m usually lifting,{" "}
+              under the hood. When I’m not coding, I’m usually lifting,{" "}
               <a
                 className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                 href="/#cooks"
               >
                 <Link to={"/cooks"}>cooking</Link>
               </a>
-              {/* , listening to{" "}
-              <a
-                className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
-                href="https://www.youtube.com/watch?v=32RhpfhWxu4"
-                target="_blank"
-              >
-                Laufey
-              </a> */}
-              , exploring topics in finance, or finding another{" "}
+
+              , researching topics in finance, or finding another{" "}
               <a
                 className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
                 href="https://www.linkedin.com/feed/update/urn:li:activity:7120543526513164288/"
