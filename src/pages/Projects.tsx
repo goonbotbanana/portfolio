@@ -40,11 +40,9 @@ export default function Projects() {
                 <h1 className="mt-4 text-xl text-left flex flex-row items-center">
                   <a
                     className="mr-4 transition-all duration-300 ease-in-out link link-underline link-underline-black"
-                    href="https://github.com/MewingCentral/FEPrep"
+                    href="https://feprep.org"
                   >
-                    <Link to="https://github.com/MewingCentral/FEPrep">
-                      FEPrep
-                    </Link>{" "}
+                    <Link to="https://feprep.org">FEPrep</Link>{" "}
                   </a>
                   <motion.span
                     initial={{ opacity: 0, scale: 0.8, x: -25 }}
