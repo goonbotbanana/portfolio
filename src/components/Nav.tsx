@@ -21,7 +21,7 @@ function Nav() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuTrigger className="p-0">
-                <HamburgerMenuIcon />
+                <HamburgerMenuIcon width="25" height="25" />
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="flex flex-col gap-3 p-3">
@@ -34,7 +34,7 @@ function Nav() {
                         to="/"
                         className={
                           location.pathname == "/"
-                            ? "transition-all duration-300 text-slate-500  pointer-events-none"
+                            ? "transition-all duration-300 text-slate-500 pointer-events-none"
                             : "no-underline"
                         }
                       >
