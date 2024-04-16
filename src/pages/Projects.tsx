@@ -72,7 +72,7 @@ export default function Projects() {
                   </li>
                 </ul>
                 <Link
-                  to="https://github.com/MewingCentral/FEPrep"
+                  to="https://feprep.org"
                   target="_blank"
                   aria-label="FEPrep"
                 >
