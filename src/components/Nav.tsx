@@ -1,18 +1,98 @@
 import { Link, useLocation } from "react-router-dom";
-// import { memo } from "react";
 import { motion } from "framer-motion";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
 
-// const Image = memo(function Image({ kanyegoat }: { kanyegoat: string }) {
-//   return <img src={kanyegoat} className="w-6 h-auto min-w-6 rounded-lg" />;
-// });
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 function Nav() {
   const location = useLocation();
   console.log(location.pathname);
   return (
     <>
-      <div className="text-left flex flex-row my-4">
-        <h1 className="text-xl font-semibold">
+      <div className="text-left flex flex-row sm:my-4">
+        <NavigationMenu className="sm:hidden">
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <NavigationMenuTrigger className="p-0">
+                <HamburgerMenuIcon />
+              </NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul>
+                  <a
+                    className="transition-all duration-300 rounded-lg hover:text-slate-500"
+                    href="#/"
+                  >
+                    <NavigationMenuLink>
+                      <Link
+                        to="/"
+                        className={
+                          location.pathname == "/"
+                            ? "transition-all duration-300 text-slate-500  pointer-events-none"
+                            : "no-underline"
+                        }
+                      >
+                        About
+                      </Link>
+                    </NavigationMenuLink>
+                  </a>
+                  <a
+                    className=" transition-all duration-300 hover:text-slate-500 ml-2"
+                    href="#/projects"
+                  >
+                    {" "}
+                    <Link
+                      to="/projects"
+                      className={
+                        location.pathname == "/projects"
+                          ? "transition-all duration-300 text-slate-500  pointer-events-none"
+                          : "no-underline"
+                      }
+                    >
+                      Projects
+                    </Link>
+                  </a>
+                  <a
+                    className=" transition-all duration-300 hover:text-slate-500 ml-2"
+                    href="#/work"
+                  >
+                    {" "}
+                    <Link
+                      to="/work"
+                      className={
+                        location.pathname == "/work"
+                          ? "transition-all duration-300 text-slate-500  pointer-events-none"
+                          : "no-underline"
+                      }
+                    >
+                      Work
+                    </Link>
+                  </a>
+                  <a
+                    className="items-center transition-all duration-300 hover:text-slate-500 ml-2"
+                    href="#/resume"
+                  >
+                    {" "}
+                    <Link
+                      to="https://drive.google.com/file/d/12YdcXV5d95G_JmFGbJBBZ5NfJ1g-Ti7p/view?usp=sharing"
+                      target="_blank"
+                    >
+                      Resume
+                    </Link>
+                  </a>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+
+        <h1 className="text-xl font-semibold hidden sm:block">
           <a
             className="transition-all duration-300 rounded-lg hover:text-slate-500"
             href="#/"
@@ -78,7 +158,7 @@ function Nav() {
           href="https://github.com/goonbotbanana"
           target="_blank"
           aria-label="github"
-          className="ml-3"
+          className="ml-3 hidden sm:block"
         >
           <motion.div whileHover={{ scale: 1.2 }}>
             <svg
@@ -96,7 +176,7 @@ function Nav() {
           href="https://www.linkedin.com/in/pharit/"
           target="_blank"
           aria-label="linkedin"
-          className="ml-3"
+          className="ml-3 hidden sm:block"
         >
           <motion.div whileHover={{ scale: 1.2 }}>
             <svg
@@ -110,15 +190,6 @@ function Nav() {
             </svg>
           </motion.div>
         </a>
-
-        {/* to be replaced with Cooks page text */}
-        {/* <a className="ml-3" href="/#cooks">
-          <Link to="/cooks">
-            <motion.div whileHover={{ scale: 1.2 }}>
-              <Image kanyegoat={"kanyegoat.svg"} />
-            </motion.div>
-          </Link>
-        </a> */}
       </div>
     </>
   );
