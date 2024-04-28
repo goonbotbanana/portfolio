@@ -182,45 +182,6 @@ function Work() {
                 </li>
               </ul>
             </div>
-            <div className="mt-4">
-              <h1 className="flex items-center text-xl text-left mt-4">
-                <a
-                  className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
-                  href="https://github.com/Banana-Byte-LLC"
-                >
-                  <Link to={"https://github.com/Banana-Byte-LLC"}>
-                    Banana Byte
-                  </Link>
-                </a>
-                <motion.span
-                  initial={{ opacity: 0, scale: 0.8, x: -25 }}
-                  animate={{ opacity: 1, scale: 1, x: 0 }}
-                  transition={{
-                    duration: 0.5,
-                    delay: 0,
-                    ease: [0, 0.71, 0.2, 1.01],
-                  }}
-                  className="flex flex-row items-center"
-                >
-                  <img
-                    src="https://skillicons.dev/icons?i=ts,tailwind,react"
-                    className="flex flex-row max-h-9 opacity-90"
-                    alt="ts,tailwind,react"
-                  ></img>
-                </motion.span>
-              </h1>
-              <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
-                <p className="justify-start text-slate-500">
-                  Co-Founder & Front-end Developer{" "}
-                  <span className="text-slate-500 text-xs">
-                    (Dec. 2023-Present)
-                  </span>
-                </p>
-              </h2>
-              <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li>Founding a social platform for college affiliates.</li>
-              </ul>
-            </div>
           </motion.div>
         </AnimatePresence>
       </div>
