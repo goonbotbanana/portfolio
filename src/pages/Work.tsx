@@ -223,7 +223,7 @@ function Work() {
                   participants.
                 </li> */}
                 <li className="mt-2">
-                  Curating solutions with emerging technologies to optimize
+                  Curated solutions with emerging technologies to optimize
                   system performance and improve efficiency for hackathon
                   organizers.
                 </li>
