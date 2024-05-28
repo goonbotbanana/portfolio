@@ -78,7 +78,7 @@ export default function Projects() {
                 >
                   <motion.img
                     src={feprep}
-                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none"
+                    className="object-cover mt-4 opacity-90 shadow-lg transition-all duration-500 hover:shadow-none w-[426px]"
                     alt="FEPrep image"
                     whileHover={{ scale: 1.05, opacity: 0.85 }}
                     transition={{ duration: 0.01, delay: 0 }}
