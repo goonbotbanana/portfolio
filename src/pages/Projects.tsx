@@ -62,11 +62,11 @@ export default function Projects() {
                     ></img>
                   </motion.span>
                 </h1>
-                <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+                {/* <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   I can't reverse a linked list.
-                </h2>
+                </h2> */}
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li className="px-2">
+                  <li className="px-2 ml-4">
                     A new way to prepare for the University of Central Florida's
                     Foundation Exam.
                   </li>
@@ -112,11 +112,11 @@ export default function Projects() {
                     ></img>{" "}
                   </motion.span>
                 </h1>
-                <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+                {/* <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   How's my portfolio today?
-                </h2>
+                </h2> */}
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li className="px-2">
+                  <li className="px-2 ml-4">
                     Utilizes Finnhub API to fetch real-time and historical stock
                     data alongside the Recharts library for data visualization.
                   </li>
@@ -162,11 +162,11 @@ export default function Projects() {
                     ></img>{" "}
                   </motion.span>
                 </h1>
-                <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+                {/* <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   Helping your kids have fun while learning Spanish!
-                </h2>
+                </h2> */}
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li className="px-2">
+                  <li className="px-2 ml-4">
                     Awarded ”Best Use of MongoDB Atlas” &#129351; at the{" "}
                     <a
                       className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
@@ -220,11 +220,11 @@ export default function Projects() {
                     ></img>
                   </motion.span>
                 </h1>
-                <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
+                {/* <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                   Keep your contacts in order with this interstellar app.
-                </h2>
+                </h2> */}
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li className="px-2">
+                  <li className="px-2 ml-4">
                     A LAMP stack application, capable of handling CRUD
                     operations for contact lists.
                   </li>
