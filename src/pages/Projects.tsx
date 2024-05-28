@@ -66,7 +66,7 @@ export default function Projects() {
                   I can't reverse a linked list.
                 </h2>
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li>
+                  <li className="px-2">
                     A new way to prepare for the University of Central Florida's
                     Foundation Exam.
                   </li>
@@ -116,7 +116,7 @@ export default function Projects() {
                   How's my portfolio today?
                 </h2>
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li>
+                  <li className="px-2">
                     Utilizes Finnhub API to fetch real-time and historical stock
                     data alongside the Recharts library for data visualization.
                   </li>
@@ -166,7 +166,7 @@ export default function Projects() {
                   Helping your kids have fun while learning Spanish!
                 </h2>
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li>
+                  <li className="px-2">
                     Awarded ”Best Use of MongoDB Atlas” &#129351; at the{" "}
                     <a
                       className="font-semibold text-slate-500 transition-all duration-300 ease-in-out link link-underline link-underline-black"
@@ -224,7 +224,7 @@ export default function Projects() {
                   Keep your contacts in order with this interstellar app.
                 </h2>
                 <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                  <li>
+                  <li className="px-2">
                     A LAMP stack application, capable of handling CRUD
                     operations for contact lists.
                   </li>
