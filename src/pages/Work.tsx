@@ -83,7 +83,7 @@ function Work() {
                 </p>{" "}
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li className="px-4">
+                <li className="px-2">
                   Optimizing performance and user experience on the portal used
                   by all Florida Blue agents.
                 </li>
@@ -123,7 +123,7 @@ function Work() {
                 </p>
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li className="px-4">
+                <li className="px-2">
                   Providing mentorship and resources to 20+ hackathon and
                   software development teams.
                 </li>
@@ -163,7 +163,7 @@ function Work() {
                 </p>{" "}
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li className="px-4">
+                <li className="px-2">
                   Improved consumer auditing on the preferences/consents admin
                   tool.
                 </li>
@@ -203,7 +203,7 @@ function Work() {
                 </p>
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li className="px-4">
+                <li className="px-2">
                   Curated solutions with emerging technologies to optimize
                   system performance and improve efficiency for hackathon
                   organizers.
@@ -244,7 +244,7 @@ function Work() {
                 </p>
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
-                <li className="px-4">
+                <li className="px-2">
                   Increasing organization outreach and improving communication
                   with the club population.
                 </li>
