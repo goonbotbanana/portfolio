@@ -131,15 +131,18 @@ function Work() {
                   Providing mentorship and resources to 20+ hackathon and
                   software development teams.
                 </li>
+                <li className="px-2 ml-4">
+                  Organizing the largest hackathon at UCF.
+                </li>
               </ul>
             </div>
-            <div>
-              <h1 className="flex items-center text-xl text-left mt-4">
+            <div className="mt-4">
+              <h1 className="flex items-center text-xl text-left mt-4 shrink">
                 <a
                   className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
-                  href="https://www.floridablue.com/"
+                  href="https://discord.gg/GWG4wzz88b"
                 >
-                  <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
+                  <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
                 </a>
                 <motion.span
                   initial={{ opacity: 0, scale: 0.8, x: -25 }}
@@ -152,24 +155,24 @@ function Work() {
                   className="flex flex-row items-center"
                 >
                   <img
-                    src="https://skillicons.dev/icons?i=js,react"
+                    src="https://skillicons.dev/icons?i=ts,tailwind,vue"
                     className="flex flex-row max-h-9 opacity-90"
-                    alt="js,react"
+                    alt="ts,tailwind,angular"
                   ></img>
                 </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">
-                  Application Development Intern{" "}
+                  Webmaster{" "}
                   <span className="text-slate-500 text-xs">
-                    (May 2023-Aug. 2023)
+                    (Jan. 2024-Present)
                   </span>
-                </p>{" "}
+                </p>
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
                 <li className="px-2 ml-4">
-                  Improved consumer auditing on the preferences/consents admin
-                  tool.
+                  Increasing organization outreach and improving communication
+                  with the club population.
                 </li>
               </ul>
             </div>
@@ -214,13 +217,14 @@ function Work() {
                 </li>
               </ul>
             </div>
-            <div className="mt-4">
-              <h1 className="flex items-center text-xl text-left mt-4 shrink">
+
+            <div>
+              <h1 className="flex items-center text-xl text-left mt-4">
                 <a
                   className="mr-4 transition-all duration-300 ease-in-out linek link-underline link-underline-black"
-                  href="https://discord.gg/GWG4wzz88b"
+                  href="https://www.floridablue.com/"
                 >
-                  <Link to={"https://discord.gg/GWG4wzz88b"}>RDC @ UCF</Link>
+                  <Link to={"https://www.floridablue.com/"}>Florida Blue</Link>
                 </a>
                 <motion.span
                   initial={{ opacity: 0, scale: 0.8, x: -25 }}
@@ -233,24 +237,24 @@ function Work() {
                   className="flex flex-row items-center"
                 >
                   <img
-                    src="https://skillicons.dev/icons?i=ts,tailwind,vue"
+                    src="https://skillicons.dev/icons?i=js,react"
                     className="flex flex-row max-h-9 opacity-90"
-                    alt="ts,tailwind,angular"
+                    alt="js,react"
                   ></img>
                 </motion.span>
               </h1>
               <h2 className="text-sm text-slate-500 font-medium text-left mb-4">
                 <p className="justify-start text-slate-500">
-                  Webmaster{" "}
+                  Application Development Intern{" "}
                   <span className="text-slate-500 text-xs">
-                    (Jan. 2024-Present)
+                    (May 2023-Aug. 2023)
                   </span>
-                </p>
+                </p>{" "}
               </h2>
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
                 <li className="px-2 ml-4">
-                  Increasing organization outreach and improving communication
-                  with the club population.
+                  Improved consumer auditing on the preferences/consents admin
+                  tool.
                 </li>
               </ul>
             </div>
