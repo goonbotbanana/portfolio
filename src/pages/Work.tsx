@@ -85,7 +85,11 @@ function Work() {
               <ul className="text-left mt-4 text-md text-slate-500 list-disc leading-relaxed">
                 <li className="px-2 ml-4">
                   Optimizing performance and user experience on the portal used
-                  by all Florida Blue agents.
+                  by Florida Blue affiliates.
+                </li>
+                <li className="px-2 ml-4">
+                  Developing a document retrieval and filtering components for
+                  admin users on the platform.
                 </li>
               </ul>
             </div>
